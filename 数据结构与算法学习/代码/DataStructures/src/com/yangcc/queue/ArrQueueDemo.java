@@ -1,8 +1,6 @@
 package com.yangcc.queue;
 
-import sun.invoke.empty.Empty;
 
-import java.util.Queue;
 import java.util.Scanner;
 
 /**
