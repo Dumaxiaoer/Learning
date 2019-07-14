@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0fa8827f-f89e-482c-ad1b-b27ed86c2c8a" name="Default Changelist" comment="">
+    <list default="true" id="0fa8827f-f89e-482c-ad1b-b27ed86c2c8a" name="Default Changelist" comment="there is no word i want to say">
+      <change afterPath="$PROJECT_DIR$/src/com/yangcc/linkedlist/SingleLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/com/yangcc/queue/ArrayQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/com/yangcc/queue/ArrayQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../笔记/数据结构预算法/三章：稀疏数组和队列.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../笔记/数据结构预算法/三章：稀疏数组和队列.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,15 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/yangcc/queue/ArrQueueDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="50" lean-forward="true" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
-              <folding>
-                <element signature="e#2333#2334#0" expanded="true" />
-                <element signature="e#2375#2376#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="195">
+              <caret line="35" column="25" lean-forward="true" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -33,8 +30,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/yangcc/queue/CircleArrQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1658">
-              <caret line="120" lean-forward="true" selection-start-line="120" selection-end-line="120" />
+            <state relative-caret-position="1755">
+              <caret line="130" lean-forward="true" selection-start-line="130" selection-end-line="130" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/yangcc/linkedlist/SingleLinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="83" column="9" lean-forward="true" selection-start-line="83" selection-start-column="9" selection-end-line="83" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -57,12 +66,13 @@
         <option value="$PROJECT_DIR$/src/com/yangcc/sparearray/SparseArray.java" />
         <option value="$PROJECT_DIR$/src/com/yangcc/queue/CircleArrQueue.java" />
         <option value="$PROJECT_DIR$/src/com/yangcc/queue/ArrQueueDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/yangcc/linkedlist/SingleLinkedList.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="316" />
-    <option name="y" value="38" />
+    <option name="x" value="252" />
+    <option name="y" value="117" />
     <option name="width" value="1400" />
     <option name="height" value="1003" />
   </component>
@@ -75,7 +85,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -105,28 +114,13 @@
               <item name="DataStructures" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="yangcc" type="462c0819:PsiDirectoryNode" />
-              <item name="queue" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructures" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="yangcc" type="462c0819:PsiDirectoryNode" />
-              <item name="queue" type="462c0819:PsiDirectoryNode" />
-              <item name="ArrQueueDemo.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="DataStructures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructures" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="yangcc" type="462c0819:PsiDirectoryNode" />
-              <item name="queue" type="462c0819:PsiDirectoryNode" />
-              <item name="CircleArrQueue.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="linkedlist" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -139,7 +133,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -153,7 +147,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ArrQueueDemo">
+  <component name="RunManager" selected="Application.SingleLinkedList">
     <configuration name="ArrQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yangcc.queue.ArrQueueDemo" />
       <module name="DataStructures" />
@@ -180,6 +174,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SingleLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yangcc.linkedlist.SingleLinkedList" />
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yangcc.linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SparseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yangcc.sparearray.SparseArray" />
       <module name="DataStructures" />
@@ -195,6 +202,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SingleLinkedList" />
         <item itemvalue="Application.ArrQueueDemo" />
         <item itemvalue="Application.CircleArrQueue" />
         <item itemvalue="Application.SparseArray" />
@@ -219,7 +227,8 @@
       <workItem from="1562074316618" duration="2881000" />
       <workItem from="1562158748794" duration="855000" />
       <workItem from="1563004278856" duration="395000" />
-      <workItem from="1563008448753" duration="878000" />
+      <workItem from="1563008448753" duration="1034000" />
+      <workItem from="1563064859314" duration="6385000" />
     </task>
     <task id="LOCAL-00001" summary="there is no word i want to say">
       <created>1563009319401</created>
@@ -232,13 +241,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21482000" />
+    <option name="totallyTimeSpent" value="28023000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="316" y="38" width="1400" height="1003" extended-state="0" />
-    <editor active="true" />
+    <frame x="252" y="117" width="1400" height="1003" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" x="1173" y="144" width="335" height="843" id="Project" order="0" visible="true" weight="0.2141791" />
+      <window_info content_ui="combo" x="1173" y="144" width="335" height="843" id="Project" order="0" visible="true" weight="0.12462687" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -247,7 +255,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32781065" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35976332" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -287,20 +295,26 @@
     <entry file="file://$PROJECT_DIR$/DataStructures.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yangcc/queue/CircleArrQueue.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yangcc/queue/ArrQueueDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1658">
-          <caret line="120" lean-forward="true" selection-start-line="120" selection-end-line="120" />
+        <state relative-caret-position="195">
+          <caret line="35" column="25" lean-forward="true" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yangcc/queue/ArrQueueDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yangcc/queue/CircleArrQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="50" lean-forward="true" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
+        <state relative-caret-position="1755">
+          <caret line="130" lean-forward="true" selection-start-line="130" selection-end-line="130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yangcc/linkedlist/SingleLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="83" column="9" lean-forward="true" selection-start-line="83" selection-start-column="9" selection-end-line="83" selection-end-column="9" />
           <folding>
-            <element signature="e#2333#2334#0" expanded="true" />
-            <element signature="e#2375#2376#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
