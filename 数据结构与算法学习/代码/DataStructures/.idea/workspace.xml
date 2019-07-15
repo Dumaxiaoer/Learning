@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0fa8827f-f89e-482c-ad1b-b27ed86c2c8a" name="Default Changelist" comment="there is no word i want to say">
-      <change afterPath="$PROJECT_DIR$/src/com/yangcc/linkedlist/SingleLinkedList.java" afterDir="false" />
+    <list default="true" id="88f0e15b-cffd-44e1-98f3-b208da14f75e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../笔记/数据结构预算法/三章：稀疏数组和队列.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../笔记/数据结构预算法/三章：稀疏数组和队列.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/META-INF/DataStructures.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/com/yangcc/linkedlist/HeroNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/com/yangcc/linkedlist/HeroNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/com/yangcc/linkedlist/SingleLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/com/yangcc/linkedlist/SingleLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/com/yangcc/linkedlist/SingleLinkedListManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/com/yangcc/linkedlist/SingleLinkedListManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/com/yangcc/queue/ArrQueueDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/com/yangcc/queue/ArrQueueDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/com/yangcc/queue/ArrayQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/com/yangcc/queue/ArrayQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/com/yangcc/queue/CircleArr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/com/yangcc/queue/CircleArr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/com/yangcc/queue/CircleArrQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/com/yangcc/queue/CircleArrQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/com/yangcc/sparearray/SparseArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/com/yangcc/sparearray/SparseArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yangcc/linkedlist/SingleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yangcc/linkedlist/SingleLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yangcc/queue/ArrQueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yangcc/queue/ArrQueueDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,36 +25,25 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="isMigrated" value="true" />
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yangcc/queue/ArrQueueDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/com/yangcc/linkedlist/SingleLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="35" column="25" lean-forward="true" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yangcc/queue/CircleArrQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1755">
-              <caret line="130" lean-forward="true" selection-start-line="130" selection-end-line="130" />
+            <state relative-caret-position="140">
+              <caret line="26" column="15" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/yangcc/linkedlist/SingleLinkedList.java">
+        <entry file="file://$PROJECT_DIR$/src/com/yangcc/queue/ArrQueueDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="83" column="9" lean-forward="true" selection-start-line="83" selection-start-column="9" selection-end-line="83" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-465">
+              <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -63,29 +63,23 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/yangcc/sparearray/SparseArray.java" />
-        <option value="$PROJECT_DIR$/src/com/yangcc/queue/CircleArrQueue.java" />
-        <option value="$PROJECT_DIR$/src/com/yangcc/queue/ArrQueueDemo.java" />
         <option value="$PROJECT_DIR$/src/com/yangcc/linkedlist/SingleLinkedList.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="252" />
-    <option name="y" value="117" />
-    <option name="width" value="1400" />
-    <option name="height" value="1003" />
+    <option name="x" value="185" />
+    <option name="y" value="63" />
+    <option name="width" value="2454" />
+    <option name="height" value="1304" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
-      <flattenPackages ProjectPane="false" />
-      <showMembers ProjectPane="false" />
-      <autoscrollToSource ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -96,11 +90,6 @@
             <path>
               <item name="DataStructures" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataStructures" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataStructures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataStructures" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -114,26 +103,30 @@
               <item name="DataStructures" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="yangcc" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedlist" type="462c0819:PsiDirectoryNode" />
+              <item name="queue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataStructures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStructures" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="yangcc" type="462c0819:PsiDirectoryNode" />
+              <item name="queue" type="462c0819:PsiDirectoryNode" />
+              <item name="ArrQueueDemo.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -147,22 +140,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SingleLinkedList">
+  <component name="RunManager" selected="Application.ArrQueueDemo">
     <configuration name="ArrQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yangcc.queue.ArrQueueDemo" />
-      <module name="DataStructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yangcc.queue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CircleArrQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yangcc.queue.CircleArrQueue" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
@@ -187,25 +167,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SparseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yangcc.sparearray.SparseArray" />
-      <module name="DataStructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yangcc.sparearray.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SingleLinkedList" />
         <item itemvalue="Application.ArrQueueDemo" />
-        <item itemvalue="Application.CircleArrQueue" />
-        <item itemvalue="Application.SparseArray" />
+        <item itemvalue="Application.SingleLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -214,196 +179,76 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0fa8827f-f89e-482c-ad1b-b27ed86c2c8a" name="Default Changelist" comment="" />
-      <created>1561380524060</created>
+      <changelist id="88f0e15b-cffd-44e1-98f3-b208da14f75e" name="Default Changelist" comment="" />
+      <created>1563190054623</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1561380524060</updated>
-      <workItem from="1561380526789" duration="4674000" />
-      <workItem from="1561638352809" duration="1042000" />
-      <workItem from="1561887656966" duration="7592000" />
-      <workItem from="1561983592182" duration="2771000" />
-      <workItem from="1562069725575" duration="394000" />
-      <workItem from="1562074316618" duration="2881000" />
-      <workItem from="1562158748794" duration="855000" />
-      <workItem from="1563004278856" duration="395000" />
-      <workItem from="1563008448753" duration="1034000" />
-      <workItem from="1563064859314" duration="6385000" />
+      <updated>1563190054623</updated>
+      <workItem from="1563190061051" duration="566000" />
     </task>
-    <task id="LOCAL-00001" summary="there is no word i want to say">
-      <created>1563009319401</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1563009319401</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28023000" />
+    <option name="totallyTimeSpent" value="566000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="252" y="117" width="1400" height="1003" extended-state="0" />
+    <frame x="106" y="36" width="1402" height="745" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" x="1173" y="144" width="335" height="843" id="Project" order="0" visible="true" weight="0.12462687" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16344725" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35976332" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32881355" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32977462" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="there is no word i want to say" />
-    <option name="LAST_COMMIT_MESSAGE" value="there is no word i want to say" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/yangcc/sparearray/SparseArray.java">
+    <entry file="file://$PROJECT_DIR$/src/com/yangcc/linkedlist/SingleLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        <state relative-caret-position="140">
+          <caret line="26" column="15" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructures.iml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yangcc/queue/ArrQueueDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="35" column="25" lean-forward="true" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yangcc/queue/CircleArrQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1755">
-          <caret line="130" lean-forward="true" selection-start-line="130" selection-end-line="130" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yangcc/linkedlist/SingleLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="83" column="9" lean-forward="true" selection-start-line="83" selection-start-column="9" selection-end-line="83" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-465">
+          <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
       <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
+          <last-edited>12</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

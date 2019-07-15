@@ -94,6 +94,7 @@ class ArrayQueue {
         }
         rear++;
         arr[rear] = a;
+
     }
 
     // 减少数据

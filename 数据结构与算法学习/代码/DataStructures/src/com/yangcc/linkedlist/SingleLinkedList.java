@@ -1,8 +1,5 @@
 package com.yangcc.linkedlist;
 
-import com.sun.prism.impl.shape.BasicRoundRectRep;
-import javafx.geometry.VPos;
-
 public class SingleLinkedList {
 
     public static void main(String[] args) {
