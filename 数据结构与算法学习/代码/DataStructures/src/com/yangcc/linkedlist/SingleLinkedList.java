@@ -271,6 +271,4 @@ class HeroNode{
                 ", nickname='" + nickname + '\'' +
                 '}';
     }
-
-
 }
