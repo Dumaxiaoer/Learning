@@ -6,10 +6,24 @@ import java.util.concurrent.RecursiveTask;
 
 public class DoubleLinkedList {
     public static void main(String[] args) {
-
+        // 测试
+        HeroNode2 heroNode1=new HeroNode2(1,"宋琴","小女孩");
+        HeroNode2 heroNode2=new HeroNode2(2,"张涵","slime");
+        HeroNode2 heroNode3=new HeroNode2(3,"丁银","丁根");
+        HeroNode2 heroNode4=new HeroNode2(4,"无名","天剑");
+        HeroNode2 heroNode5=new HeroNode2(5,"步惊云","霸剑");
+        // 创建一个双向链表对象
+        DoubleLinkedListManager doubleLinkedListManager =new DoubleLinkedListManager();
+        doubleLinkedListManager.addByOrder(heroNode1);
+        doubleLinkedListManager.addByOrder(heroNode5);
+        doubleLinkedListManager.addByOrder(heroNode2);
+        doubleLinkedListManager.addByOrder(heroNode4);
+        doubleLinkedListManager.addByOrder(heroNode3);
+        doubleLinkedListManager.list();
+        System.out.println("----------------删除---------------------");
+        doubleLinkedListManager.del(3);
+        doubleLinkedListManager.list();
     }
-
-
 }
 
 class DoubleLinkedListManager{
@@ -54,10 +68,15 @@ class DoubleLinkedListManager{
             }
             temp=temp.next;
         }
-        node.next=temp.next;
-        temp.next.pre=node;
-        temp.next= node;
-        node.pre=temp;
+        if (temp.next==null){
+            temp.next=node;
+            node.pre=temp;
+        }else{
+            node.next=temp.next;
+            temp.next.pre=node;
+            temp.next= node;
+            node.pre=temp;
+        }
     }
 
     // 修改
@@ -86,10 +105,7 @@ class DoubleLinkedListManager{
         if (temp.next!=null){ // 如果是最后一个节点则不应该删除，否则出现空指针异常
             temp.next.pre=temp.pre;
         }
-
     }
-
-
 }
 
 
