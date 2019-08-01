@@ -80,9 +80,6 @@ class DoubleLinkedListManager{
     }
 
     // 修改
-
-
-
     // 删除节点 找到后，删除即可
     public void del(int no){
         if (head.next==null){
