@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88f0e15b-cffd-44e1-98f3-b208da14f75e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/yangcc/linkedlist/Josephu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/yangcc/stack/ArrayStackDemo.java" afterDir="false" />
+    <list default="true" id="88f0e15b-cffd-44e1-98f3-b208da14f75e" name="Default Changelist" comment="2019 0729 约瑟夫创建环形链表">
+      <change afterPath="$PROJECT_DIR$/src/com/yangcc/stack/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yangcc/stack/PolandNotation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/com/yangcc/linkedlist/HeroNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/com/yangcc/linkedlist/HeroNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/com/yangcc/linkedlist/SingleLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/com/yangcc/linkedlist/SingleLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/com/yangcc/linkedlist/SingleLinkedListManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/com/yangcc/linkedlist/SingleLinkedListManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yangcc/linkedlist/DoubleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yangcc/linkedlist/DoubleLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../笔记/数据结构与算法/三章：稀疏数组和队列.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../笔记/数据结构与算法/三章：稀疏数组和队列.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,7 +41,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -59,13 +55,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ArrayStackDemo">
-    <configuration name="ArrQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yangcc.queue.ArrQueueDemo" />
+  <component name="RunManager" selected="Application.PolandNotation">
+    <configuration name="ArrayStackDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yangcc.stack.ArrayStackDemo" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yangcc.queue.*" />
+          <option name="PATTERN" value="com.yangcc.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,8 +69,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayStackDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yangcc.stack.ArrayStackDemo" />
+    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yangcc.stack.Calculator" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
@@ -112,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingleLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yangcc.linkedlist.SingleLinkedList" />
+    <configuration name="PolandNotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yangcc.stack.PolandNotation" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yangcc.linkedlist.*" />
+          <option name="PATTERN" value="com.yangcc.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PolandNotation" />
+        <item itemvalue="Application.Calculator" />
         <item itemvalue="Application.ArrayStackDemo" />
         <item itemvalue="Application.Josephu" />
         <item itemvalue="Application.DoubleLinkedList" />
-        <item itemvalue="Application.SingleLinkedList" />
-        <item itemvalue="Application.ArrQueueDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +156,10 @@
       <workItem from="1564569651880" duration="292000" />
       <workItem from="1564570714525" duration="103000" />
       <workItem from="1564570898581" duration="7823000" />
-      <workItem from="1564659548804" duration="639000" />
+      <workItem from="1564659548804" duration="1704000" />
+      <workItem from="1565607428227" duration="8890000" />
+      <workItem from="1565616371279" duration="2145000" />
+      <workItem from="1565694531775" duration="8470000" />
     </task>
     <task id="LOCAL-00001" summary="2019 0729 约瑟夫创建环形链表">
       <created>1564408226973</created>
