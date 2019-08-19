@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88f0e15b-cffd-44e1-98f3-b208da14f75e" name="Default Changelist" comment="2019 0729 约瑟夫创建环形链表">
-      <change afterPath="$PROJECT_DIR$/src/com/yangcc/stack/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/yangcc/stack/PolandNotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../笔记/数据结构与算法/三章：稀疏数组和队列.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../笔记/数据结构与算法/三章：稀疏数组和队列.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/com/yangcc/stack/PolandNotation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/com/yangcc/stack/PolandNotation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yangcc/stack/PolandNotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yangcc/stack/PolandNotation.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +41,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -160,6 +160,7 @@
       <workItem from="1565607428227" duration="8890000" />
       <workItem from="1565616371279" duration="2145000" />
       <workItem from="1565694531775" duration="8470000" />
+      <workItem from="1566213127785" duration="9499000" />
     </task>
     <task id="LOCAL-00001" summary="2019 0729 约瑟夫创建环形链表">
       <created>1564408226973</created>
