@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27e596da-f93c-4468-bb6e-b70dafab67ec" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../公考/行测/判断推理/判断推理.md" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Java学习/代码/base-code/day04-code/src/com/yangcc/day04/demo01/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java学习/代码/HellowWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Java学习/代码/HellowWorld.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -176,6 +178,8 @@
       <workItem from="1571140464277" duration="635000" />
       <workItem from="1571144018623" duration="1250000" />
       <workItem from="1571312332025" duration="375000" />
+      <workItem from="1571312773599" duration="595000" />
+      <workItem from="1571316206223" duration="26000" />
     </task>
     <servers />
   </component>
