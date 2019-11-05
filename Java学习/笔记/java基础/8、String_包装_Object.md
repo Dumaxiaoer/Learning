@@ -88,3 +88,35 @@ Integer类：static int parseInt(String s)
 
 }
 
+#### P240泛型
+
+是一种未知的数据类型，当我们不知道用什么数据类型时候，可以使用泛型
+
+泛型也可以看成一个变量，用来接收数据类型
+
+​	E e:element 元素
+
+​	T t:Type 元素
+
+创建对象时确定泛型的类型
+
+在接口、类、方法中都能使用
+
+* 通配符
+
+？ 代表任意的数据类型
+
+使用方式：不能创建对象使用，只能作为方法的参数使用
+
+public void print(ArrayList<?> list){}
+
+* 泛型的上下限
+
+  1.？extends E 代表使用的泛型只能是E类型的子类或本身
+
+  2.？super E 只能使用E类型的父类或本身
+
+
+* 发牌
+
+[发牌案例代码](E:\YangChengCan\Learning\Java学习\代码\base-code\day04-code\src\com\yangcc\Collection09\List\Poker.java)
