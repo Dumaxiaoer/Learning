@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class RegisterExceptionMain {
     private static String[] userNames={"你","我","她"};
 
+
     public static void main(String[] args) throws RegisterException {
         Scanner sc =new Scanner(System.in);
         String userName=sc.next();
