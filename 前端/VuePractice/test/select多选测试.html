@@ -1,0 +1,89 @@
+<!-- 
+    同一个组件只能使用组件里的data，可通过传参赋值进行接收
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+    <!-- 引入样式 -->
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <!-- 引入组件库 -->
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+    <script src="../js/vue-rooter.js"></script>
+
+    <style>
+        .el-carousel__item h3 {
+            color: #475669;
+            font-size: 14px;
+            opacity: 0.75;
+            line-height: 200px;
+            margin: 0;
+        }
+
+        .el-carousel__item:nth-child(2n) {
+            background-color: #99a9bf;
+        }
+
+        .el-carousel__item:nth-child(2n+1) {
+            background-color: #d3dce6;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div id="vm">
+        <select id="cnm" style="width:100px" multiple="multiple">
+            <option value="one">1</option>
+            <option value="two">2</option>
+            <option value="three">3</option>
+            <option value="four">4</option>
+            <option value="five">5</option>
+        </select>
+        <input type="button" value="提交" @click="submit">
+    </div>
+</body>
+<script>
+    //开启路由对象
+    new Vue({
+        el: '#vm',
+        data: {
+            cname: 'yangcc',
+            id: '123456',
+        },
+        methods: {
+            submit: function () {
+                var myselect = document.getElementById('cnm');
+                var select = document.getElementById("cnm");
+                console.info(myselect);
+                // var i = myselect.selectedIndex; // selectedIndex代表的是你所选中项的index
+                // var v = myselect.options[i].value;
+                // var t = myselect.options[i].text;
+                // alert(i + "||" + v + "||" + t);
+                var str = [];
+                for(i=0;i<select.length;i++){
+                    if(select.options[i].selected){
+                        str.push(select[i].value);
+                    }
+                }
+                alert(str);
+            }
+        }
+    })
+</script>
+
+</html>
+
+
+
+
+
+
+
+

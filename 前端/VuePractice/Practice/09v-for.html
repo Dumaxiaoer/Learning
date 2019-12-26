@@ -1,0 +1,49 @@
+<!-- 08 v-model -->
+<!-- v-model 双向绑定  v-bind会将vm中的值拿出来在页面显示，不能改变vm中的值  v-model可以 
+    运用：注册功能
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>study</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+    <!-- 引入样式 -->
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <!-- 引入组件库 -->
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+</head>
+
+<style>
+
+</style>
+
+<body>
+    <div id="app">
+      <ul>
+        <!-- <li v-for="item in list">{{$index}}---{{item}}</li> 1.0 -->
+        <li v-for="(item,index) in list">{{index}}---{{item}}</li> <!--1.0索引在前，2.0索引在后-->
+        <li v-for="(item,key,index,) in user" :key="index">{{index}}，{{key}},{{item}}</li>
+        <!-- :key=index  为唯一标识 -->
+    </ul>
+
+    </div>
+</body>
+<script>
+    var vm = new Vue({
+        el: '#app',
+        data: {
+           list:[1,2,3,4,5],
+           user:{
+               name:"yangcc",
+               age:25
+           }
+        },
+
+    })
+</script>
+
+
+</html>

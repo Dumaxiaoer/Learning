@@ -1,0 +1,63 @@
+<!-- 11 v-on的使用 -->
+<!-- 
+    @click.stop @click.prevent 阻止原本有的事件
+
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>study</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+    <!-- 引入样式 -->
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <!-- 引入组件库 -->
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+</head>
+
+<style>
+
+</style>
+
+<body>
+    <div id="app">
+        <button @:click="submit">提交</button>
+        <input type="text" @:keydown="kd">
+        <form  @submit.prevent action="www.baidu.com"> <!--@submit.prevent为阻止表单提交-->
+            <input type="submit"   text="提交">
+
+
+        </form>
+    </div>
+</body>
+<script>
+    var vm = new Vue({
+        el: '#app',
+        data: {
+            isShow: true
+
+
+        },
+        methods: {
+            submit: function () {
+                alert("ddd")
+
+
+            },
+            kd: function () {
+                alert("ddd")
+
+
+            }
+
+
+        }
+
+
+    })
+</script>
+
+
+</html>

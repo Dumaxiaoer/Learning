@@ -1,0 +1,150 @@
+<!-- 
+    同一个组件只能使用组件里的data，可通过传参赋值进行接收
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+    <!-- 引入样式 -->
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <!-- 引入组件库 -->
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+    <script src="../js/vue-rooter.js"></script>
+</head>
+
+<body>
+    <div id="vm">
+        <el-table :data="tableData3" style="width: 100%">
+            <el-table-column prop="date" label="日期" width="150">
+            </el-table-column>
+
+            <el-table-column label="配送信息">
+                <el-table-column prop="name" label="姓名" width="120">
+                </el-table-column>
+                <el-table-column prop="name" label="测试姓名" width="120">
+                </el-table-column>
+                <el-table-column label="地址">
+                    <el-table-column prop="province" label="省份" width="120">
+                    </el-table-column>
+                    <el-table-column prop="city" label="市区" width="120">
+                    </el-table-column>
+                    <el-table-column prop="address" label="地址" width="300">
+                    </el-table-column>
+                    <el-table-column prop="zip" label="邮编" width="120">
+                    </el-table-column>
+                    <el-table-column prop="zip" label="测试最下层" width="120">
+                    </el-table-column>
+                </el-table-column>
+            </el-table-column>
+            <el-table-column prop="date" label="测试配送" width="150">
+            </el-table-column>
+            
+        </el-table>
+    </div>
+</body>
+<script>
+    //开启路由对象
+    new Vue({
+        el: '#vm',
+        data: {
+            tableData3: [{
+                date: '2016-05-03',
+                name: '王小虎',
+                province: '上海',
+                city: '普陀区',
+                address: '上海市普陀区金沙江路 1518 弄',
+                zip: 200333
+            }, {
+                date: '2016-05-02',
+                name: '王小虎',
+                province: '上海',
+                city: '普陀区',
+                address: '上海市普陀区金沙江路 1518 弄',
+                zip: 200333
+            }, {
+                date: '2016-05-04',
+                name: '王小虎',
+                province: '上海',
+                city: '普陀区',
+                address: '上海市普陀区金沙江路 1518 弄',
+                zip: 200333
+            }, {
+                date: '2016-05-01',
+                name: '王小虎',
+                province: '上海',
+                city: '普陀区',
+                address: '上海市普陀区金沙江路 1518 弄',
+                zip: 200333
+            }, {
+                date: '2016-05-08',
+                name: '王小虎',
+                province: '上海',
+                city: '普陀区',
+                address: '上海市普陀区金沙江路 1518 弄',
+                zip: 200333
+            }, {
+                date: '2016-05-06',
+                name: '王小虎',
+                province: '上海',
+                city: '普陀区',
+                address: '上海市普陀区金沙江路 1518 弄',
+                zip: 200333
+            }, {
+                date: '2016-05-07',
+                name: '王小虎',
+                province: '上海',
+                city: '普陀区',
+                address: '上海市普陀区金沙江路 1518 弄',
+                zip: 200333
+            }]
+        },
+        methods: {
+            arraySpanMethod({
+                row,
+                column,
+                rowIndex,
+                columnIndex
+            }) {
+                //console.info(row+"||"+column+"||"+rowIndex+"||"+columnIndex)
+                if (rowIndex % 2 === 0) {
+                    if (columnIndex === 0) {
+                        return [1, 2];
+                    } else if (columnIndex === 1) {
+                        return [1, 0];
+                    }
+                }
+            },
+
+            objectSpanMethod({
+                row,
+                column,
+                rowIndex,
+                columnIndex
+            }) {
+                if (columnIndex === 0) {
+                    if (rowIndex % 2 === 0) {
+                        return {
+                            rowspan: 2,
+                            colspan: 1
+                        };
+                    } else {
+                        return {
+                            rowspan: 0,
+                            colspan: 0
+                        };
+                    }
+                }
+            }
+
+
+        }
+
+    })
+</script>
+
+</html>

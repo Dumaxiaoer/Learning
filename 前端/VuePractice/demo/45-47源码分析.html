@@ -1,0 +1,50 @@
+<!-- 
+    同一个组件只能使用组件里的data，可通过传参赋值进行接收
+
+
+    
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+    <!-- 引入样式 -->
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <!-- 引入组件库 -->
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+    <script src="../js/vue-rooter.js"></script>
+
+    <style>
+        
+    
+    
+    </style>
+
+
+</head>
+
+<body>
+    <div id="vm">
+        
+
+        
+    </div>
+</body>
+<script>
+   
+//开启路由对象
+    new Vue({
+        el: '#vm',
+        data: {
+            cname: 'yangcc',
+            id: '123456',
+        },
+        
+    })
+</script>
+
+</html>

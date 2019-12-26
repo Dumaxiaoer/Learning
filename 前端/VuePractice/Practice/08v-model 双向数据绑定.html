@@ -1,0 +1,45 @@
+<!-- 08 v-model -->
+<!-- v-model 双向绑定  v-bind会将vm中的值拿出来在页面显示，不能改变vm中的值  v-model可以 
+    运用：注册功能
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>study</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+    <!-- 引入样式 -->
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <!-- 引入组件库 -->
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+</head>
+
+<style>
+    [v-cloak] {
+        display: none
+    }
+</style>
+
+<body>
+    <div id="app">
+        <input type="text" v-model="name">
+        <input type="text" v-bind:value="name">
+        
+
+    </div>
+</body>
+<script>
+    var vm = new Vue({
+        el: '#app',
+        data: {
+            name: 'yangcc',
+            age: ''
+        },
+
+    })
+</script>
+
+
+</html>

@@ -1,0 +1,122 @@
+<!-- 使用动画
+    0.引入animate
+    1.结合animated css实现动画
+    2.利用钩子函数实现
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+    <!-- 引入样式 -->
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <!-- 引入组件库 -->
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+    <link rel="stylesheet" href="../css/animate.css">
+    <style>
+        .show {
+            transition: all 1s ease;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="app">
+        <button @click="toggle">显示和隐藏数据</button>
+        <transition enter-active-class="zoomOut" leave-active-class="zoomInDown">
+            <div v-show="isShow" class="animated" class="show">
+                <span>hello world</span>
+            </div>
+        </transition>
+    </div>
+    <div id="app1">
+        <button @click="toggle">显示和隐藏数据2</button>
+        <transition @before-enter="beforeEnter" @enter="enter" @after-enter="afterEnter">
+            <div v-show="isShow" class="show">
+                <span>hello world</span>
+            </div>
+        </transition>
+
+    </div>
+
+
+</body>
+<script>
+    //定义钩子函数 1.0
+    // Vue.transition('show',{
+    //     //当前实现动画的初始位置
+    //     beforeEnter:function(el){
+    //         el.style.transform="translate(100px,0)"
+
+    //     },
+    //     //动画的结束位置
+    //     enter:function(el,done){
+    //         //设置刷新状态
+    //         el.offsetWidth;
+    //         //设置动画结束位置
+    //         el.style.transform="translate(0px,0)"
+    //         //手动调用下done方法,由该方法决定动画是否结束
+    //         done();
+    //     },
+    //     //动画的状态复原设置
+    //     afterEnter:function(){
+    //         //
+    //         vm1.isShow=!vm1.isShow;
+    //     }
+
+    // })
+
+
+    var vm = new Vue({
+        el: '#app',
+        data: {
+            isShow: false,
+        },
+        methods: {
+            toggle: function () {
+                this.isShow = !this.isShow;
+            }
+        }
+    })
+
+
+
+
+    var vm1 = new Vue({
+        el: '#app1',
+        data: {
+            isShow: false,
+        },
+        methods: {
+            toggle: function () {
+                this.isShow = !this.isShow;
+            },
+            beforeEnter: function (el) {
+          
+                el.style.transform = "translate(100px,0)"; //初始位置
+
+            },
+            enter: function (el, done) {
+         
+                el.offsetWidth;
+                el.style.transform = "translate(0px,0)";
+                done();
+            },
+            afterEnter: function (el) {
+        
+                this.isShow = !this.isShow;
+
+            }
+
+
+        }
+
+
+    })
+</script>
+
+</html>

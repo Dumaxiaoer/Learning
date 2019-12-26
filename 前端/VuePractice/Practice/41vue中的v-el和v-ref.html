@@ -1,0 +1,61 @@
+<!-- 
+  v-el和v-ref
+  v-el:+名字可以将该dom对象存放在$els中
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+    <!-- 引入样式 -->
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <!-- 引入组件库 -->
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <button @click="getDom">获取dom </button>
+        <div  id="div1" ref="mydiv" >as we can</div>
+        <button @click="getComDom">获取组件dom</button>
+        <login ref="myCom"></login>
+    </div>
+</body>
+<script>
+    new Vue({
+        el: '#app',
+        data: {
+            cname: 'yangcc',
+            id: '123456',
+        },
+        methods: {
+            getDom: function () {
+                //获取div的对象
+                //1.1通过传统的document
+                console.info(document.getElementById('div1').innerHTML)
+                //1.2通过vue获取
+                console.info( this.$refs.mydiv.innerHTML+"vue指令")
+            },
+            getComDom:function(){
+                console.info(this.$refs.myCom.name)
+            }
+        },
+        components:{
+            'login':{
+                data:function(){
+                    return{
+                        name:'yangcc'
+                    }
+                },
+                template:'<h1>这是一个子组件</h1>'
+            }
+        }
+        
+    })
+</script>
+
+</html>

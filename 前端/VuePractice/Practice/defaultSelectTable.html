@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>DsTable</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+    <!-- 引入样式 -->
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <!-- 引入组件库 -->
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+
+</head>
+<style>
+    .el-table .warning-row {
+        background: rgb(173, 151, 110);
+      }
+
+      .el-table .success-row {
+        background: #b5d1a5;
+      }
+    </style>
+
+<body>
+    <div id="app">
+        <template>
+            <el-table :data="tableData3" height="auto" border style="width: 100%" highlight-current-row ref="multipleTable"
+                @row-click="showRow" :row-class-name="tableRowClassName">
+                <el-table-column prop="date" label="日期" width="180">
+                </el-table-column>
+                <el-table-column prop="name" label="姓名" width="180">
+                </el-table-column>
+                <el-table-column prop="address" label="地址">
+                </el-table-column>
+            </el-table>
+        </template>
+    </div>
+
+
+
+</body>
+<script type="text/javascript">
+    new Vue({
+        el: '#app',
+        data: {
+            tableData3: [{
+                date: '2016-05-03',
+                name: '王小虎',
+                address: '上海市普陀区金沙江路 1518 弄'
+            }, {
+                date: '2016-05-02',
+                name: '王小虎',
+                address: '上海市普陀区金沙江路 1518 弄'
+            }, {
+                date: '2016-05-04',
+                name: '王小虎',
+                address: '上海市普陀区金沙江路 1518 弄'
+            }, {
+                date: '2016-05-01',
+                name: '王小虎',
+                address: '上海市普陀区金沙江路 1518 弄'
+            }, {
+                date: '2016-05-08',
+                name: '王小虎',
+                address: '上海市普陀区金沙江路 1518 弄'
+            }, {
+                date: '2016-05-06',
+                name: '王小虎',
+                address: '上海市普陀区金沙江路 1518 弄'
+            }, {
+                date: '2016-05-07',
+                name: '王小虎',
+                address: '上海市普陀区金沙江路 1518 弄'
+            }],
+            globalIndex: '1'
+        },
+        mounted() {
+            this.defaultSelection();
+            // this.$refs.multipleTable.toggleRowSelection(this.tableData3[0],true);
+        },
+
+        methods: {
+            tableRowClassName: function ({
+                row,
+                rowIndex
+            }) {
+                row.index = rowIndex;
+
+                var self = this;
+                if (rowIndex === 1) {
+                    return 'highlight-row';
+                } else if (rowIndex === 3) {
+                    return 'success-row';
+                }
+                return '';
+
+            },
+            defaultSelection: function () {
+                this.$refs.multipleTable.setCurrentRow(this.$refs.multipleTable.data[this.globalIndex]);
+                console.info(this.$refs.multipleTable.data[0])
+            },
+            showRow: function (row, index, column) {
+
+                alert(row.index);
+                this.globalIndex = row.index + 1;
+                this.defaultSelection();
+            }
+
+
+        }
+
+    })
+</script>
+
+</html>

@@ -1,0 +1,39 @@
+<!-- 05 v-text和v-html -->
+
+<!-- v-text将值当成纯字符串输出，而v-html将字符串当成html元素处理 -->
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>1111</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+    <!-- 引入样式 -->
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <!-- 引入组件库 -->
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+</head>
+
+<body>
+    <div id="app">
+      <span v-text="name"></span>
+      <span v-html="name"></span>
+    </div>
+
+</body>
+<script>
+    var vm = new Vue({
+        el: '#app',
+        data: {
+            name: '<h1>yangcc</h1>',
+            age: 4
+        },
+    
+    })
+</script>
+
+
+</html>

@@ -1,0 +1,68 @@
+<!-- 
+    同一个组件只能使用组件里的data，可通过传参赋值进行接收
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+    <!-- 引入样式 -->
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <!-- 引入组件库 -->
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+    <script src="../js/vue-rooter.js"></script>
+</head>
+
+<body>
+    <div id="vm">
+        <router-link to="/login">登录</router-link>
+        <router-link to="/register/itCast">注册</router-link>
+        <router-view></router-view>
+    </div>
+</body>
+<script>
+    //1.准备组件
+var app=Vue.extend({});
+
+var login=Vue.extend({
+    template:'<div><h1>登录</h1></div>'
+})
+
+var register=Vue.extend({
+    template:'<div><h1>注册{{name}}</h1></div>',
+    data:function(){    
+        return{
+            name:''
+        }
+    },
+    //生命周期，创建时触发
+    created:function(){
+        this.name=this.$route.params.name1
+    }
+})
+//2.实例化路由规则对象
+var router=new VueRouter({
+    routes:[
+        {path:'/' ,redirect:'/login'},
+        {path:'/login',component:login},
+        {path:'/register/:name1',component:register}
+    ]
+
+})
+//开启路由对象
+    new Vue({
+        el: '#vm',
+        data: {
+            cname: 'yangcc',
+            id: '123456',
+        },
+        router:router
+      
+        
+    })
+</script>
+
+</html>

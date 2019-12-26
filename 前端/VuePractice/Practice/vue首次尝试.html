@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>vue首次尝试</title>
+    <script src="../vue/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+    <!-- 引入样式 -->
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <!-- 引入组件库 -->
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <span>{{name}}</span>
+      <span>{{pwd}}</span>
+      <input type="text" value="222">
+      <el-row>
+        <el-button icon="el-icon-search" circle></el-button>
+        <el-button type="primary" icon="el-icon-edit" circle> </el-button>
+        <el-button type="success" icon="el-icon-check" circle></el-button>
+        <el-button type="info" icon="el-icon-message" circle></el-button>
+        <el-button type="warning" icon="el-icon-star-off" circle></el-button>
+        <el-button type="danger" icon="el-icon-delete" circle></el-button>
+      </el-row>
+
+      <el-row>
+        <el-button round>圆角按钮</el-button>
+        <el-button type="primary" round>主要按钮</el-button>
+        <el-button type="success" round>成功按钮</el-button>
+        <el-button type="info" round>信息按钮</el-button>
+        <el-button type="warning" round>警告按钮</el-button>
+        <el-button type="danger" round>危险按钮</el-button>
+      </el-row>
+    </div>
+</div>
+    <div id="app-4">
+      <ol>
+        <li v-for="todo in todos">
+          {{ todo.text }}
+        </li>
+      </ol>
+    </div>
+
+
+
+  </body>
+  <script>
+    new Vue({
+      el:'#app',
+      data:{
+        name:'yangcc',
+        pwd:'22222'
+      }
+    })
+
+    var app4 = new Vue({
+    el: '#app-4',
+    data: {
+      todos: [
+        { text: '学习 JavaScript' },
+        { text: '学习 Vue' },
+        { text: '整个牛项目' }
+      ]
+    }
+    })
+
+
+  </script>
+
+
+
+
+
+</html>

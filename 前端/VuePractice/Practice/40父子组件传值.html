@@ -1,0 +1,67 @@
+<!-- 
+  实现父子组件的传值
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+    <!-- 引入样式 -->
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <!-- 引入组件库 -->
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+</head>
+
+<body>
+<template id="test">
+    <div>
+        {{id}}
+        {{cname}}
+        i am afriad she will go if i went to pk
+        <button @click="sendData">传值给父组件</button>
+    </div>
+</template>
+
+   <div id="app">
+       <!-- 通过在父子间中调用子组件的时候利用：绑定对应的props中定义的参数再
+       将值传给子组件 -->
+       <subtest :id="id" :cname="cname" v-on:send="getData" ></subtest>
+
+   </div>
+</body>
+<script>
+
+    new Vue({
+        el: '#app',
+        data: {
+            cname:'yangcc',
+            id:'123456',
+            subData:''
+        },
+        methods:{
+            getData:function(input){
+                alert("老子已收到"+input)
+            }
+        },
+        components:{
+            'subtest':{
+                template:'#test',
+                props:['id',"cname"],//负责接收父组件传入的值
+                methods:{
+                    sendData:function(){
+                        //将hellow传值给父组件
+                        this.$emit('send','who are u')
+                    }
+                }
+            }
+
+
+        }
+    })
+</script>
+
+</html>

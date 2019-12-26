@@ -1,0 +1,151 @@
+<!-- 24 自定义属性 -->
+<!-- 
+    实现：页面加载完毕光标停留在筛选框(自定义指令v-focus以实现其功能)
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>study</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+    <!-- 引入样式 -->
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <!-- 引入组件库 -->
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+</head>
+
+<style>
+    #tb{
+      width:800px;
+      border-collapse:collapse;  
+      margin:20px auto
+    }
+    #tb th{
+        background-color: rgb(91, 139, 123);
+        color:white;
+        font-size:16px;
+        padding:5px;
+        text-align: center;
+        border: 1px solid green;
+    }
+    #tb td{
+        padding:5px;
+        text-align: center;
+        border: 1px solid green;
+    }
+</style>
+
+<body>
+    <div id="app">
+        <div style="text-align: center" >
+            <form @submit.prevent action="add">
+                <input type="text" v-model="name">
+                <input type="text" v-model="time">
+                <button type="submit" @click="add">添加数据</button>
+            </form>
+
+            <input type="text" v-model="searchName" placeholder="请输入名称" v-focus >
+            <!-- <input type="text" v-model="searchName" placeholder="请输入名称" v-focus v-color="color1"> -->
+        </div>
+        
+        
+        <table id="tb">
+            <tr>
+                <th>编号</th>
+                <th>名称</th>
+                <th>创建时间</th>
+                <th>操作</th>
+
+            </tr>
+            <tr v-if="list.length==0">
+                <td colspan="4">当前列表无数据</td>
+            </tr>
+            <tr v-for="item in list" >
+                <td>{{item.id}}</td>
+                <td>{{item.name}}</td>
+                <td>{{item.ctime}}</td>
+                <td>
+                    <a href="#" @click="deleteData(item.id)" >删除</a>
+                </td>
+            </tr>
+
+        </table>
+    </div>
+</body>
+
+<script>
+    //--------------1.自定义属性---------------
+    //定义时不需要加v 使用时加v-才能使用        1.0的用法
+    // Vue.directive('focus',function(){
+    //     var inputObj=this.el;
+    //     inputObj.focus();
+    // })
+    // Vue.directive('color',function(){
+    //     var color=this.expression //拿到当前color下的color值
+    //     this.el.style.color=this.vm[this.expression];//设置颜色
+    // })
+    //定义属性
+    Vue.directive('focus', {
+            // 当被绑定的元素插入到 DOM 中时……
+            inserted: function (el) {
+                // 聚焦元素
+                el.focus()
+            }
+    });
+    //定义一个元素指令     2.0
+    //注，元素指令可在定义时加v-  ，使用时的名称同定义的名称相同，不需要加v-
+    // Vue.elementDirective('my-red',{
+    //     bind:function(){
+
+    //         this.el.style.color='red';
+    //     }
+    // });
+
+    var vm = new Vue({
+        el: '#app',
+        data: {
+            list: [{ 
+                    id: 1,
+                    name: '手机',
+                    ctime: new Date
+                }
+            ],
+            name:'',
+            time:'',
+            searchName:''
+        },
+        methods: {
+            //数据添加
+            add:function(){
+                var self=this;
+                var a=this.list.length; 
+                if(a>0){
+                    var b=this.list[a-1].id;
+                    var newData={id:b+1,name:this.name,ctime:this.time }
+                }else{
+                    var newData={id:1,name:this.name,ctime:this.time }        
+                }      
+                
+                this.list.push(newData);
+                console.info(this.list)
+            },
+            //数据删除
+            deleteData:function(id){
+                //1.0 是否删除
+                if(!confirm('是否删除数据')){
+                    return
+                }
+                //找到包含该id的索引（方法中为是否找到该集合的id，返回布尔）
+                var index=this.list.findIndex(function(item){
+                     return item.id==id})                
+                this.list.splice(index,1);
+
+            }
+        }
+    })
+</script>
+
+
+</html>

@@ -1,0 +1,70 @@
+<!-- 
+    定义组件总共四种写法
+    定义的template中只能包含一个根元素
+    组件中的点击方法必须写在组件里面
+    在组件中使用data必须是方法而不是对象，目的是区分主组件
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+    <!-- 引入样式 -->
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <!-- 引入组件库 -->
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+</head>
+
+<body>
+    <!-- 定义组件   -->
+    <template id="account">
+        <div>
+            {{msg}}
+            <a href="#" @click="login">登录</a>
+            <input type="text" name="" id="" value="">
+        </div>
+    </template>
+    <div id="app">
+        <account></account>
+        <register></register>
+    </div>
+</body>
+<script>
+    //1
+    // //定义全局组件
+    // var login=Vue.extend({
+    //     template:'<h1>登录页面</h>'
+    // })
+    // //注册组件
+    // Vue.component('login',login);
+    //2
+    Vue.component('register', {
+        'template': '<h1>健康你我他</h1>'
+    })
+    //3
+    Vue.component('account', {
+        template: '#account',
+        data:function(){
+            return{
+                 msg:'账户组件'
+            }    
+        },
+        methods:{
+            login:function(){
+                alert("1223")
+
+            }
+        }
+    })
+    new Vue({
+        el: '#app',
+        data: {
+        }
+    })
+</script>
+
+</html>

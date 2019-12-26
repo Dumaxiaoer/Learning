@@ -1,0 +1,52 @@
+<!--
+    watch和compute都用来监控对象，当这些对象改变以后
+    可以出发回调函数做一些逻辑处理
+    监控一些路由对象
+ -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+    <!-- 引入样式 -->
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <!-- 引入组件库 -->
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+    <script src="../js/vue-rooter.js"></script>
+</head>
+
+<body>
+    <div id="vm">
+        <input type="text" v-model="firstName">
+        <input type="text" v-model="lastName">
+        <!-- {{fullName}} ||{{firstName+lastName}} -->
+    </div>
+</body>
+<script>
+  
+
+//开启路由对象
+    new Vue({
+        el: '#vm',
+        data: {
+            firstName: 'yangcc',
+            lastName: 'ccyang',
+            fullName:'yangchengcan', 
+        },
+        watch:{
+            'firstName':function(newval,oldval){
+                console.info(newval,oldval);
+                this.fullName=this.firstName+this.lastName;
+            },
+            'lastName':function(newval,oldval){
+                this.fullName=this.firstName+this.lastName;
+            }
+        }
+    })
+</script>
+
+</html>

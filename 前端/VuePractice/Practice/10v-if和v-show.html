@@ -1,0 +1,54 @@
+<!-- 10 v-if和v-show -->
+<!-- 
+    v-if 和v-show都能实现对元素的隐藏和显示工作，但是v-if是将这个元素添加或者移除到dom对象中
+    而v-show是控制元素的style以隐藏
+
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>study</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+    <!-- 引入样式 -->
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <!-- 引入组件库 -->
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+</head>
+
+<style>
+
+</style>
+
+<body>
+    <div id="app">
+        <button v-on:click="change">显示隐藏切换</button>
+       <div v-if="isShow">div的值</div>
+
+    </div>
+</body>
+<script>
+    var vm=new Vue({
+        el:'#app',
+        data:{
+            isShow:true
+
+
+        },
+        methods:{
+            change:function(){
+                this.isShow=!this.isShow
+
+
+            }
+
+        }
+
+
+    })
+</script>
+
+
+</html>

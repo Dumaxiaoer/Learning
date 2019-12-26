@@ -1,0 +1,41 @@
+<!-- 06 v-cloack -->
+<!-- v-cloak 在加载出来之前用cloak进行移除，保证加载不会出现乱影，闪烁现象  -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>study</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+    <!-- 引入样式 -->
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <!-- 引入组件库 -->
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+</head>
+
+    <style>
+        [v-cloak]{
+            display: none
+        }
+
+    </style>
+
+<body>
+    <div id="app">
+        <span v-cloak>{{name}}</span>
+    </div>
+</body>
+<script>
+    var vm = new Vue({
+        el: '#app',
+        data: {
+            name: 'yangcc',
+            age: 4
+        },
+
+    })
+</script>
+
+
+</html>

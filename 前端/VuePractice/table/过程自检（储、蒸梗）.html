@@ -1,0 +1,207 @@
+<!-- 
+    同一个组件只能使用组件里的data，可通过传参赋值进行接收
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+    <!-- 引入样式 -->
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <!-- 引入组件库 -->
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+    <script src="../js/vue-rooter.js"></script>
+</head>
+<style>
+    #totalFrame {
+        position: absolute;
+        background-color: white;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        border: 1px solid green
+    }
+
+    .titleWrap {
+        width: 100%;
+        height: 10%;
+        border: 1px solid red;
+        text-align: center
+    }
+
+    .searchWrap {
+        width: 100%;
+        height: 7%;
+        border: 1px solid red;
+        padding-top: 20px
+    }
+
+    .tableWrap {
+        width: 100%;
+        height: 78%;
+        border: 1px solid red;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 10px;
+    }
+</style>
+
+<body>
+    <div id="vm">
+        <div id="totalFrame">
+            <div class="titleWrap">
+                <h1>制丝过程自检记录(储梗，蒸梗)</h1>
+            </div>
+
+            <div class="searchWrap">
+                <table style="width:100%;">
+                    <tr>
+                        <th>日期：</th>
+                        <th></th>
+                        <th>班组：</th>
+                        <th></th>
+                        <th>操作工：</th>
+                        <th></th>
+                    </tr>
+
+                </table>
+            </div>
+            <div class="tableWrap">
+                <div style="border:1px solid blue;height: 100%;width: 100%;padding: 5px">
+                    <table style="width: 100%;height: auto;" border="1" cellspacing="0">
+                        <tr>
+                            <td rowspan="3">牌号</td>
+                            <td rowspan="3">批号</td>
+                            <td colspan="5">倒柜</td>
+                            <td colspan="3">蒸梗</td>
+                        </tr>
+                        <tr>
+                            <td colspan="5">确认记录项</td>
+                            <td colspan="2">确认记录项</td>
+                            <td>记录项</td>
+
+                        </tr>
+                        <tr>
+                            <td>出柜号</td>
+                            <td>HT2工作蒸汽压力</td>
+                            <td>进柜号</td>
+                            <td colspan="2">进柜结束时间</td>
+                            <td>HT3工作蒸汽压力（Mpa）</td>
+                            <td>物料流量（kg/h）</td>
+                            <td>电子秤累计量(Kg)</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td colspan="2"></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td colspan="2"></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+
+                        </tr>
+
+                        <tr>
+                            <td colspan="2" rowspan="5">生产准备及设备状态确认</td>
+                            <td colspan="4">项目</td>
+                            <td colspan="4">确认</td>
+
+                        </tr>
+                        <tr>
+                            <td colspan="4">主蒸汽阀，水阀，压缩气阀开启状态确认</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td colspan="4">电子秤空运行时，皮重确认</td>
+                            <td colspan="4"></td>
+
+                        </tr>
+                        <tr>
+                            <td colspan="4">沿途清洁确认</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td colspan="4">二级储梗柜标识确认</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" rowspan="3">生产结束收尾确认</td>
+                            <td colspan="4">沿途清扫确认</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <!--  -->
+                            <!--  -->
+                        </tr>
+                        <tr>
+                            <td colspan="4">1</td>
+                            <td colspan="4"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="4">2</td>
+                            <td colspan="4"></td>
+
+                        </tr>
+
+
+                    </table>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    //开启路由对象
+    new Vue({
+        el: '#vm',
+        data: {
+
+        },
+
+    })
+</script>
+
+</html>

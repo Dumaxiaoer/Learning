@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>you can use it</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+  <!-- 引入样式 -->
+  <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+  <!-- 引入组件库 -->
+  <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+</head>
+
+<body>
+  <div id="app-5">
+    <p>{{ message }}</p>
+    <button v-on:click="reverseMessage">逆转消息</button>
+  </div>
+
+  <div class="" id="app-6">
+    <p>{{message}}</p>
+    <input v-model="message">
+</div>
+
+
+</body>
+
+<script>
+  var app5 = new Vue({
+    el: '#app-5',
+    data: {
+      message: 'Hello Vue.js!'
+    },
+    methods: {
+      reverseMessage: function() {
+        this.message = this.message.split('').reverse().join('')
+      }
+    }
+  })
+  var app6 = new Vue({
+    el: '#app-6',
+    data: {
+      message: 'what the fuck'
+    }
+  })
+</script>
+
+</html>

@@ -1,0 +1,51 @@
+<!--
+    computed特点，只要是computed中存在的属性，任一改变都会触发事件
+    computed属性会依赖于其使用的data中的属性，只要其中属性值改变，即会触发事件
+    如果依赖的这些属性值没有发生改变，那计算属性的值会从缓存中来而不是重新编译，
+    因此尽量用compute而不是watch
+ -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+    <!-- 引入样式 -->
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <!-- 引入组件库 -->
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+    <script src="../js/vue-rooter.js"></script>
+</head>
+
+<body>
+    <div id="vm">
+        <input type="text" v-model="firstName">
+        <input type="text" v-model="lastName">
+        {{fullName}}
+        <!-- {{fullName}} ||{{firstName+lastName}} -->
+    </div>
+</body>
+<script>
+  
+
+//开启路由对象
+    new Vue({
+        el: '#vm',
+        data: {
+            firstName: 'yangcc',
+            lastName: 'ccyang',
+           
+        },
+        computed:{
+            fullName:function(){  
+                //只要firstName和lastName一个发生改变就会重新调用该函数
+                return this.firstName+this.lastName;
+            }
+        }
+    })
+</script>
+
+</html>
