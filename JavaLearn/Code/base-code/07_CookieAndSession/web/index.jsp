@@ -11,6 +11,16 @@
     <title>$Title$</title>
   </head>
   <body>
-  $END$
+  <%
+    String contextPath=request.getContextPath();
+    out.print(contextPath);
+  %>
+
+  <%!
+    int i=3;
+  %>
+  <%= "学习" %>
+  <h1>我会成为大神</h1>
+
   </body>
 </html>
