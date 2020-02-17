@@ -119,5 +119,53 @@ appsettings.json:配置文件，日常要读取的键值对，放在其中
 
 ![image-20200109165016678](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20200109165016678.png)
 
-#### 路由
+#### 路由  Route
 
+决定以什么样的形式来访问服务器
+
+在App_Start中的RouteConfig中，有注册路由的方式，其中url便是路由规则，
+
+前两项写死不能变，而第三项则可以作为参数传递的形式
+
+![image-20200205170417339](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20200205170417339.png)
+
+如
+
+```
+// 自定义路由规则
+routes.MapRoute(
+                name: "HelloWorld",
+                url:"{year}-{month}-{day}-{id}",
+                defaults:new 
+                { 
+                    controller="HelloWorld",
+                    action="showWorld"
+                },
+                constraints: new 
+                {
+                    year="^\\d{4}$",
+                    month="^\\d{1,2}$",
+                    day="^\\d{1,2}$"
+                }
+                );
+// 默认路由规则
+routes.MapRoute(
+                name: "Default",
+                url: "{controller}/{action}/{id}",
+                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+            );
+```
+
+Route:   路由规则
+
+RouteData:路由数据 
+
+RouteCollection:路由集合
+
+RouteTable:静态变量对象
+
+#### 区域 
+
+当项目非常多的时候，方便分类管理的
+
+右键->添加->新建搭建基架的项目->mvc

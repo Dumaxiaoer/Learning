@@ -1,0 +1,58 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+    <script>
+        // 1.方式一，通过post提交表单
+        @*$(function () {
+            $("#submitBtn").click(function () {
+                $.post(
+                    '@Url.Action("loginCheck","Login")',
+                    ("#loginInfo").serialize(),
+                    function (msg) {
+                        $("showMessage").text(msg);
+                    }
+                )
+            })
+        })*@
+
+        // 2.方式二，通过ajax方式提交
+        function loginCheck() {
+            //var p = $("#loginInfo").form().serializeObject2();
+            var s = $("#loginInfo").serialize();
+            //console.info(p);
+            console.info(s);
+            $.ajax({
+                url: '/Login/loginCheck',
+                data: s,
+                type: 'POST',
+                dataType: 'text',
+                success: function (data) {
+                    $("#showMessage").text(data);              
+                }
+            })
+        }
+
+    </script>
+</head>
+<body>
+    <div> 
+        <form id="loginInfo">
+            <input type="text" name="username" />
+            <input type="text" name="password"/>
+            <input type="button" id="submitBtn"  onclick="loginCheck()" value="提交"/>
+            <br />
+            <span id="showMessage"></span>
+
+        </form>
+    </div>
+</body>
+</html>
