@@ -83,3 +83,10 @@ E:\YangChengCan\Learning\AspCore\Code\MvcStudy\obj\Debug\MvcStudy.csprojAssembly
 E:\YangChengCan\Learning\AspCore\Code\MvcStudy\obj\Debug\MvcStudy.csproj.CopyComplete
 E:\YangChengCan\Learning\AspCore\Code\MvcStudy\obj\Debug\MvcStudy.dll
 E:\YangChengCan\Learning\AspCore\Code\MvcStudy\obj\Debug\MvcStudy.pdb
+E:\YangChengCan\Learning\AspCore\Code\MvcStudy\bin\EntityFramework.dll
+E:\YangChengCan\Learning\AspCore\Code\MvcStudy\bin\EntityFramework.SqlServer.dll
+E:\YangChengCan\Learning\AspCore\Code\MvcStudy\bin\Models.dll
+E:\YangChengCan\Learning\AspCore\Code\MvcStudy\bin\Models.pdb
+E:\YangChengCan\Learning\AspCore\Code\MvcStudy\bin\EntityFramework.xml
+E:\YangChengCan\Learning\AspCore\Code\MvcStudy\bin\EntityFramework.SqlServer.xml
+E:\YangChengCan\Learning\AspCore\Code\MvcStudy\bin\zh-Hans\EntityFramework.resources.dll

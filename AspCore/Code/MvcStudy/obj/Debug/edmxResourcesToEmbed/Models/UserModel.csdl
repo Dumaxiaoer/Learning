@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MYDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Sys_User">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Account" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="RealName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="NickName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="HeadIcon" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Gender" Type="Boolean" />
+    <Property Name="Birthday" Type="DateTime" Precision="3" />
+    <Property Name="MobilePhone" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="WeChat" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ManagerId" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="SecurityLevel" Type="Int32" />
+    <Property Name="Signature" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="OrganizeId" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="DepartmentId" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="RoleId" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="DutyId" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="IsAdministrator" Type="Boolean" />
+    <Property Name="SortCode" Type="Int32" />
+    <Property Name="DeleteMark" Type="Boolean" />
+    <Property Name="EnabledMark" Type="Boolean" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CreatorTime" Type="DateTime" Precision="3" />
+    <Property Name="CreatorUserId" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="LastModifyTime" Type="DateTime" Precision="3" />
+    <Property Name="LastModifyUserId" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="DeleteTime" Type="DateTime" Precision="3" />
+    <Property Name="DeleteUserId" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="MYDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Sys_User" EntityType="Self.Sys_User" />
+  </EntityContainer>
+</Schema>

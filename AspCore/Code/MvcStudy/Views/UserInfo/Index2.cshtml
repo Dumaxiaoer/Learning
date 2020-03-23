@@ -1,0 +1,35 @@
+﻿@using MvcStudy.Models
+@model IQueryable<MvcStudy.Models.Sys_User>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index2</title>
+</head>
+<body>
+    <div>
+        @Html.ActionLink("添加","Add","UserInfoCrud")
+        <hr/>
+        <table border="1">
+            <tr>
+                <th>学号</th>
+                <th>姓名</th>
+            </tr>
+            @foreach (Sys_User userInfo in Model) { 
+                <tr>
+                    <th>@userInfo.Account</th>
+                    <th>@userInfo.NickName</th>
+                </tr>   
+            }
+
+</table>
+
+        </div>
+    </body>
+</html>

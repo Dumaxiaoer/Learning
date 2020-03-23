@@ -169,3 +169,55 @@ RouteTable:静态变量对象
 当项目非常多的时候，方便分类管理的
 
 右键->添加->新建搭建基架的项目->mvc
+
+#### 过滤器
+
+![image-20200217173630024](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20200217173630024.png)
+
+​	作为特性：
+
+* 可直接修饰行为
+* 可修饰类：表示当前控制器下的所有行为，都会运用该过滤器
+
+* 在全局中注册过滤器，则所有控制器的所有行为，都会执行
+
+1.身份验证过滤器 方法前运行，通过才会进入方法
+
+2.异常处理
+
+3.行为过滤器  ：方法执行前和执行后（身份验证是进入方法前，并没有执行方法）
+
+3.结果过滤器：结果返回前和返回后
+
+#### WEBAPI
+
+两种web服务：
+
+SOAP风格：基于方法，产品是WebService
+
+REST风格：基于资源，产品时WebAPI
+
+WebApi主要针对数据库中的表做增删改查操作，而不需要做其他的处理，则通过访问资源的方式进行请求，而其访问类型可以区分在资源中调用的哪个方法
+
+![image-20200218143429834](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20200218143429834.png)
+
+
+
+### Entity Framework简称EF
+
+基于ado.net的数据库访问技术，是一套ORM框架
+
+底层访问数据库的实质依然是ado.net
+
+* orm框架：包含了实例模型，数据模型，映射关系三部分
+
+* 上下文类DbContext;内部封装了ado.net操作，用于对数据进行crud
+
+使用：在model层中->新建项->数据->实体数据模型
+
+[代码](E:\YangChengCan\Learning\AspCore\Code\MvcStudy\Controllers\UserInfoController.cs)
+
+如果遇到成都运行时实体创建的问题，则：
+
+打开.edmx文件->右键->从数据库更新模型（新增）
+

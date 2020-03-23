@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="Scripts/jquery-3.4.1.min.js"></script>
+    <script>
+        $(function () {
+            alert("2")
+            LoadList();
+        })
+        // https://localhost:44302/api/UserInfo
+        function LoadList() {
+            alert('1')
+            $.ajax({           
+                url:'/api/UserInfo',
+                data:'{}',
+                type: 'get',
+                contentType: "application/json;charset=utf-8",//数据类型，一定要加
+                dataType: 'json',
+                success: function (list) {
+                    var list1 = $('#list');
+                    list1.empty();
+                    $.each(list, function (index, item) {
+                        list1.append('<tr><td>' + item.Id + '</td><td>' + item.Name + '</td></tr>');
+                    })
+                }
+            })
+        }
+
+    </script>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <th>编号</th>
+            <th>姓名</th>
+        </tr>
+        <tbody id="list">
+
+
+
+        </tbody>
+
+    </table>
+</body>
+</html>

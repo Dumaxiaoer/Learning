@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MYDBModelStoreContainer" CdmEntityContainer="MYDBEntities">
+    <EntitySetMapping Name="Sys_User">
+      <EntityTypeMapping TypeName="MYDBModel.Sys_User">
+        <MappingFragment StoreEntitySet="Sys_User">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Account" ColumnName="Account" />
+          <ScalarProperty Name="RealName" ColumnName="RealName" />
+          <ScalarProperty Name="NickName" ColumnName="NickName" />
+          <ScalarProperty Name="HeadIcon" ColumnName="HeadIcon" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Birthday" ColumnName="Birthday" />
+          <ScalarProperty Name="MobilePhone" ColumnName="MobilePhone" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="WeChat" ColumnName="WeChat" />
+          <ScalarProperty Name="ManagerId" ColumnName="ManagerId" />
+          <ScalarProperty Name="SecurityLevel" ColumnName="SecurityLevel" />
+          <ScalarProperty Name="Signature" ColumnName="Signature" />
+          <ScalarProperty Name="OrganizeId" ColumnName="OrganizeId" />
+          <ScalarProperty Name="DepartmentId" ColumnName="DepartmentId" />
+          <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+          <ScalarProperty Name="DutyId" ColumnName="DutyId" />
+          <ScalarProperty Name="IsAdministrator" ColumnName="IsAdministrator" />
+          <ScalarProperty Name="SortCode" ColumnName="SortCode" />
+          <ScalarProperty Name="DeleteMark" ColumnName="DeleteMark" />
+          <ScalarProperty Name="EnabledMark" ColumnName="EnabledMark" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="CreatorTime" ColumnName="CreatorTime" />
+          <ScalarProperty Name="CreatorUserId" ColumnName="CreatorUserId" />
+          <ScalarProperty Name="LastModifyTime" ColumnName="LastModifyTime" />
+          <ScalarProperty Name="LastModifyUserId" ColumnName="LastModifyUserId" />
+          <ScalarProperty Name="DeleteTime" ColumnName="DeleteTime" />
+          <ScalarProperty Name="DeleteUserId" ColumnName="DeleteUserId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

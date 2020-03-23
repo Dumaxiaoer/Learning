@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MYDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--生成过程中发现错误:
+警告 6002: 表/视图“MYDB.dbo.Sys_User”未定义主键。已推断出该键，并将定义创建为只读的表/视图。-->
+  <EntityType Name="Sys_User">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="Account" Type="nvarchar(max)" />
+    <Property Name="RealName" Type="nvarchar(max)" />
+    <Property Name="NickName" Type="nvarchar(max)" />
+    <Property Name="HeadIcon" Type="nvarchar(max)" />
+    <Property Name="Gender" Type="bit" />
+    <Property Name="Birthday" Type="datetime" />
+    <Property Name="MobilePhone" Type="nvarchar(max)" />
+    <Property Name="Email" Type="nvarchar(max)" />
+    <Property Name="WeChat" Type="nvarchar(max)" />
+    <Property Name="ManagerId" Type="nvarchar(max)" />
+    <Property Name="SecurityLevel" Type="int" />
+    <Property Name="Signature" Type="nvarchar(max)" />
+    <Property Name="OrganizeId" Type="nvarchar(max)" />
+    <Property Name="DepartmentId" Type="nvarchar(max)" />
+    <Property Name="RoleId" Type="nvarchar(max)" />
+    <Property Name="DutyId" Type="nvarchar(max)" />
+    <Property Name="IsAdministrator" Type="bit" />
+    <Property Name="SortCode" Type="int" />
+    <Property Name="DeleteMark" Type="bit" />
+    <Property Name="EnabledMark" Type="bit" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="CreatorTime" Type="datetime" />
+    <Property Name="CreatorUserId" Type="nvarchar(max)" />
+    <Property Name="LastModifyTime" Type="datetime" />
+    <Property Name="LastModifyUserId" Type="nvarchar(max)" />
+    <Property Name="DeleteTime" Type="datetime" />
+    <Property Name="DeleteUserId" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityContainer Name="MYDBModelStoreContainer">
+    <EntitySet Name="Sys_User" EntityType="Self.Sys_User" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Sys_User].[Id] AS [Id], 
+    [Sys_User].[Account] AS [Account], 
+    [Sys_User].[RealName] AS [RealName], 
+    [Sys_User].[NickName] AS [NickName], 
+    [Sys_User].[HeadIcon] AS [HeadIcon], 
+    [Sys_User].[Gender] AS [Gender], 
+    [Sys_User].[Birthday] AS [Birthday], 
+    [Sys_User].[MobilePhone] AS [MobilePhone], 
+    [Sys_User].[Email] AS [Email], 
+    [Sys_User].[WeChat] AS [WeChat], 
+    [Sys_User].[ManagerId] AS [ManagerId], 
+    [Sys_User].[SecurityLevel] AS [SecurityLevel], 
+    [Sys_User].[Signature] AS [Signature], 
+    [Sys_User].[OrganizeId] AS [OrganizeId], 
+    [Sys_User].[DepartmentId] AS [DepartmentId], 
+    [Sys_User].[RoleId] AS [RoleId], 
+    [Sys_User].[DutyId] AS [DutyId], 
+    [Sys_User].[IsAdministrator] AS [IsAdministrator], 
+    [Sys_User].[SortCode] AS [SortCode], 
+    [Sys_User].[DeleteMark] AS [DeleteMark], 
+    [Sys_User].[EnabledMark] AS [EnabledMark], 
+    [Sys_User].[Description] AS [Description], 
+    [Sys_User].[CreatorTime] AS [CreatorTime], 
+    [Sys_User].[CreatorUserId] AS [CreatorUserId], 
+    [Sys_User].[LastModifyTime] AS [LastModifyTime], 
+    [Sys_User].[LastModifyUserId] AS [LastModifyUserId], 
+    [Sys_User].[DeleteTime] AS [DeleteTime], 
+    [Sys_User].[DeleteUserId] AS [DeleteUserId]
+    FROM [dbo].[Sys_User] AS [Sys_User]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>
