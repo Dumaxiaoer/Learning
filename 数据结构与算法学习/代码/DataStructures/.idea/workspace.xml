@@ -2,13 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27e596da-f93c-4468-bb6e-b70dafab67ec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../JavaLearn/Code/base-code/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../JavaLearn/Code/base-code/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../JavaLearn/Code/base-code/.idea/libraries/Java_EE_6_Java_EE_6__2_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../JavaLearn/Code/base-code/lib/javax.annotation.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../JavaLearn/Code/base-code/lib/javax.ejb.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../JavaLearn/Code/base-code/lib/javax.jms.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../JavaLearn/Code/base-code/lib/javax.persistence.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../JavaLearn/Code/base-code/lib/javax.resource.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../JavaLearn/Code/base-code/lib/javax.servlet.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../JavaLearn/Code/base-code/lib/javax.servlet.jsp.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../JavaLearn/Code/base-code/lib/javax.transaction.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AspCore/Notes/WebService/01功能及其优点.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../AspCore/Notes/WebService/01功能及其优点.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JavaLearn/Code/base-code/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../JavaLearn/Code/base-code/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JavaLearn/Code/base-code/03DataSource/03DataSource.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../JavaLearn/Code/base-code/03DataSource/03DataSource.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JavaLearn/Code/base-code/06_Servlet/06_Servlet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../JavaLearn/Code/base-code/06_Servlet/06_Servlet.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JavaLearn/Code/base-code/06_Servlet_Annoation/06_Servlet_Annoation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../JavaLearn/Code/base-code/06_Servlet_Annoation/06_Servlet_Annoation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JavaLearn/Code/base-code/07_CookieAndSession/07_CookieAndSession.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../JavaLearn/Code/base-code/07_CookieAndSession/07_CookieAndSession.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JavaLearn/Code/base-code/09_FilterAndListener/09_FilterAndListener.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../JavaLearn/Code/base-code/09_FilterAndListener/09_FilterAndListener.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JavaLearn/Code/base-code/out/artifacts/09_FilterAndListener_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../JavaLearn/Code/base-code/out/artifacts/09_FilterAndListener_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JavaLearn/Code/base-code/out/production/DataSource/META-INF/DataSource.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JavaLearn/Code/base-code/out/production/DataSource/c3p0-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JavaLearn/Code/base-code/out/production/DataSource/com/yangcc/datasoruce/c3p0/Demo01c3p0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JavaLearn/Code/base-code/out/production/DataSource/com/yangcc/datasoruce/druid/Demo01Druid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JavaLearn/Code/base-code/out/production/DataSource/com/yangcc/datasoruce/druid/Demo02Druid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JavaLearn/Code/base-code/out/production/DataSource/com/yangcc/domain/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JavaLearn/Code/base-code/out/production/DataSource/com/yangcc/jdbctemplate/Demo01JdbcTemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JavaLearn/Code/base-code/out/production/DataSource/com/yangcc/jdbctemplate/Demo02JdbcTemplate$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JavaLearn/Code/base-code/out/production/DataSource/com/yangcc/jdbctemplate/Demo02JdbcTemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JavaLearn/Code/base-code/out/production/DataSource/com/yangcc/utils/JDBCUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JavaLearn/Code/base-code/out/production/DataSource/druid.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JavaLearn/Code/base-code/out/production/Jdbc/com/yangcc/Util/JdbcUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JavaLearn/Code/base-code/out/production/Jdbc/com/yangcc/domain/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JavaLearn/Code/base-code/out/production/Jdbc/com/yangcc/jdbc/Demo01Jdbc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JavaLearn/Code/base-code/out/production/Jdbc/com/yangcc/jdbc/Demo02Jdbc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JavaLearn/Code/base-code/out/production/Jdbc/com/yangcc/jdbc/Demo03Jdbc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JavaLearn/Code/base-code/out/production/Jdbc/com/yangcc/jdbc/Demo04Jdbc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JavaLearn/Code/base-code/out/production/Jdbc/com/yangcc/jdbc/Demo05Jdbc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JavaLearn/Code/base-code/out/production/Jdbc/com/yangcc/jdbc/Demo06Transaction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JavaLearn/Code/base-code/out/production/Jdbc/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JavaLearn/Code/base-code/out/production/day04-code/pro.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JavaLearn/WebService/[www.java1234.com]WebService培训教程_尚硅谷_张晓飞.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JavaLearn/WebService/service.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -36,29 +81,26 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
   <component name="ProjectId" id="1PjJ1TGoax6JW8ocggtvuxuVEzL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="C:/Program Files/Git/mingw64/bin/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Application.RadixSort">
     <configuration name="InsertSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -179,6 +221,7 @@
       <workItem from="1571316206223" duration="26000" />
       <workItem from="1572438623554" duration="308000" />
       <workItem from="1572438938600" duration="6000" />
+      <workItem from="1586492425162" duration="1303000" />
     </task>
     <servers />
   </component>
@@ -197,5 +240,23 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1202" height="161" key="GridCell.Tab.0.bottom" timestamp="1586509829551">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1202" height="161" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1586509829551" />
+    <state width="1202" height="161" key="GridCell.Tab.0.center" timestamp="1586509829551">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1202" height="161" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1586509829551" />
+    <state width="1202" height="161" key="GridCell.Tab.0.left" timestamp="1586509829551">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1202" height="161" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1586509829551" />
+    <state width="1202" height="161" key="GridCell.Tab.0.right" timestamp="1586509829551">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1202" height="161" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1586509829551" />
   </component>
 </project>

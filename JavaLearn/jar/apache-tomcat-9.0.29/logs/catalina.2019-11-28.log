@@ -1,0 +1,195 @@
+28-Nov-2019 22:08:45.320 ä¿¡æ¯ [main] org.apache.catalina.startup.VersionLoggerListener.log Server.æœåŠ¡å™¨ç‰ˆæœ¬:     Apache Tomcat/9.0.29
+28-Nov-2019 22:08:45.335 ä¿¡æ¯ [main] org.apache.catalina.startup.VersionLoggerListener.log æœåŠ¡å™¨æ„å»º:            Nov 16 2019 17:29:07 UTC
+28-Nov-2019 22:08:45.337 ä¿¡æ¯ [main] org.apache.catalina.startup.VersionLoggerListener.log æœåŠ¡å™¨ç‰ˆæœ¬å·(ï¼š9.0.29.0
+28-Nov-2019 22:08:45.344 ä¿¡æ¯ [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+28-Nov-2019 22:08:45.369 ä¿¡æ¯ [main] org.apache.catalina.startup.VersionLoggerListener.log OS.ç‰ˆæœ¬:               10.0
+28-Nov-2019 22:08:45.371 ä¿¡æ¯ [main] org.apache.catalina.startup.VersionLoggerListener.log æ¶æ„:                  amd64
+28-Nov-2019 22:08:45.373 ä¿¡æ¯ [main] org.apache.catalina.startup.VersionLoggerListener.log Java ç¯å¢ƒå˜é‡:         C:\Program Files\Java\jdk-12.0.1
+28-Nov-2019 22:08:45.374 ä¿¡æ¯ [main] org.apache.catalina.startup.VersionLoggerListener.log JVM ç‰ˆæœ¬:              12.0.1+12
+28-Nov-2019 22:08:45.375 ä¿¡æ¯ [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.ä¾›åº”å•†:            Oracle Corporation
+28-Nov-2019 22:08:45.375 ä¿¡æ¯ [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\javasoftware\Tomcat\apache-tomcat-9.0.29
+28-Nov-2019 22:08:45.376 ä¿¡æ¯ [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\javasoftware\Tomcat\apache-tomcat-9.0.29
+28-Nov-2019 22:08:45.415 ä¿¡æ¯ [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+28-Nov-2019 22:08:45.420 ä¿¡æ¯ [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+28-Nov-2019 22:08:45.422 ä¿¡æ¯ [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+28-Nov-2019 22:08:45.425 ä¿¡æ¯ [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\javasoftware\Tomcat\apache-tomcat-9.0.29\conf\logging.properties
+28-Nov-2019 22:08:45.431 ä¿¡æ¯ [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Nov-2019 22:08:45.433 ä¿¡æ¯ [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Nov-2019 22:08:45.435 ä¿¡æ¯ [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Nov-2019 22:08:45.438 ä¿¡æ¯ [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Nov-2019 22:08:45.440 ä¿¡æ¯ [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\javasoftware\Tomcat\apache-tomcat-9.0.29
+28-Nov-2019 22:08:45.447 ä¿¡æ¯ [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\javasoftware\Tomcat\apache-tomcat-9.0.29
+28-Nov-2019 22:08:45.449 ä¿¡æ¯ [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\javasoftware\Tomcat\apache-tomcat-9.0.29\temp
+28-Nov-2019 22:08:45.451 ä¿¡æ¯ [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+28-Nov-2019 22:08:45.452 ä¿¡æ¯ [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+28-Nov-2019 22:08:45.454 ä¿¡æ¯ [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSLé…ç½®ï¼šuseAprConnector[false]ï¼ŒuseOpenSSL[true]
+28-Nov-2019 22:08:45.601 ä¿¡æ¯ [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+28-Nov-2019 22:08:46.289 ä¿¡æ¯ [main] org.apache.coyote.AbstractProtocol.init åˆå§‹åŒ–åè®®å¤„ç†å™¨ ["http-nio-8080"]
+28-Nov-2019 22:08:47.776 ä¿¡æ¯ [main] org.apache.coyote.AbstractProtocol.init åˆå§‹åŒ–åè®®å¤„ç†å™¨ ["ajp-nio-8009"]
+28-Nov-2019 22:08:47.792 ä¿¡æ¯ [main] org.apache.catalina.startup.Catalina.load æœåŠ¡å™¨åœ¨[3,125]æ¯«ç§’å†…åˆå§‹åŒ–
+28-Nov-2019 22:08:47.925 ä¿¡æ¯ [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Nov-2019 22:08:47.926 ä¿¡æ¯ [main] org.apache.catalina.core.StandardEngine.startInternal æ­£åœ¨å¯åŠ¨ Servlet å¼•æ“ï¼š[Apache Tomcat/9.0.29]
+28-Nov-2019 22:08:47.957 ä¿¡æ¯ [main] org.apache.catalina.startup.HostConfig.deployDirectory æŠŠweb åº”ç”¨ç¨‹åºéƒ¨ç½²åˆ°ç›®å½• [F:\javasoftware\Tomcat\apache-tomcat-9.0.29\webapps\docs]
+28-Nov-2019 22:08:50.110 è­¦å‘Š [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,345] milliseconds.
+28-Nov-2019 22:08:50.154 ä¿¡æ¯ [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\javasoftware\Tomcat\apache-tomcat-9.0.29\webapps\docs] has finished in [2,198] ms
+28-Nov-2019 22:08:50.155 ä¿¡æ¯ [main] org.apache.catalina.startup.HostConfig.deployDirectory æŠŠweb åº”ç”¨ç¨‹åºéƒ¨ç½²åˆ°ç›®å½• [F:\javasoftware\Tomcat\apache-tomcat-9.0.29\webapps\examples]
+28-Nov-2019 22:08:51.417 ä¿¡æ¯ [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\javasoftware\Tomcat\apache-tomcat-9.0.29\webapps\examples] has finished in [1,262] ms
+28-Nov-2019 22:08:51.419 ä¿¡æ¯ [main] org.apache.catalina.startup.HostConfig.deployDirectory æŠŠweb åº”ç”¨ç¨‹åºéƒ¨ç½²åˆ°ç›®å½• [F:\javasoftware\Tomcat\apache-tomcat-9.0.29\webapps\host-manager]
+28-Nov-2019 22:08:51.517 ä¿¡æ¯ [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\javasoftware\Tomcat\apache-tomcat-9.0.29\webapps\host-manager] has finished in [97] ms
+28-Nov-2019 22:08:51.518 ä¿¡æ¯ [main] org.apache.catalina.startup.HostConfig.deployDirectory æŠŠweb åº”ç”¨ç¨‹åºéƒ¨ç½²åˆ°ç›®å½• [F:\javasoftware\Tomcat\apache-tomcat-9.0.29\webapps\manager]
+28-Nov-2019 22:08:51.607 ä¿¡æ¯ [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\javasoftware\Tomcat\apache-tomcat-9.0.29\webapps\manager] has finished in [88] ms
+28-Nov-2019 22:08:51.608 ä¿¡æ¯ [main] org.apache.catalina.startup.HostConfig.deployDirectory æŠŠweb åº”ç”¨ç¨‹åºéƒ¨ç½²åˆ°ç›®å½• [F:\javasoftware\Tomcat\apache-tomcat-9.0.29\webapps\ROOT]
+28-Nov-2019 22:08:51.670 ä¿¡æ¯ [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\javasoftware\Tomcat\apache-tomcat-9.0.29\webapps\ROOT] has finished in [62] ms
+28-Nov-2019 22:08:51.693 ä¿¡æ¯ [main] org.apache.coyote.AbstractProtocol.start å¼€å§‹åè®®å¤„ç†å¥æŸ„["http-nio-8080"]
+28-Nov-2019 22:08:51.713 ä¿¡æ¯ [main] org.apache.coyote.AbstractProtocol.start å¼€å§‹åè®®å¤„ç†å¥æŸ„["ajp-nio-8009"]
+28-Nov-2019 22:08:51.720 ä¿¡æ¯ [main] org.apache.catalina.startup.Catalina.start Server startup in [3,925] milliseconds
+28-Nov-2019 22:12:10.297 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log Server.·şÎñÆ÷°æ±¾:     Apache Tomcat/9.0.29
+28-Nov-2019 22:12:10.310 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log ·şÎñÆ÷¹¹½¨:            Nov 16 2019 17:29:07 UTC
+28-Nov-2019 22:12:10.314 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log ·şÎñÆ÷°æ±¾ºÅ(£º9.0.29.0
+28-Nov-2019 22:12:10.315 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+28-Nov-2019 22:12:10.316 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log OS.°æ±¾:               10.0
+28-Nov-2019 22:12:10.319 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log ¼Ü¹¹:                  amd64
+28-Nov-2019 22:12:10.320 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log Java »·¾³±äÁ¿:         C:\Program Files\Java\jdk-12.0.1
+28-Nov-2019 22:12:10.321 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log JVM °æ±¾:              12.0.1+12
+28-Nov-2019 22:12:10.327 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.¹©Ó¦ÉÌ:            Oracle Corporation
+28-Nov-2019 22:12:10.332 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\javasoftware\Tomcat\apache-tomcat-9.0.29
+28-Nov-2019 22:12:10.334 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\javasoftware\Tomcat\apache-tomcat-9.0.29
+28-Nov-2019 22:12:10.359 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+28-Nov-2019 22:12:10.361 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+28-Nov-2019 22:12:10.362 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+28-Nov-2019 22:12:10.364 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\javasoftware\Tomcat\apache-tomcat-9.0.29\conf\logging.properties
+28-Nov-2019 22:12:10.365 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Nov-2019 22:12:10.367 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Nov-2019 22:12:10.383 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Nov-2019 22:12:10.386 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Nov-2019 22:12:10.390 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\javasoftware\Tomcat\apache-tomcat-9.0.29
+28-Nov-2019 22:12:10.393 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\javasoftware\Tomcat\apache-tomcat-9.0.29
+28-Nov-2019 22:12:10.395 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\javasoftware\Tomcat\apache-tomcat-9.0.29\temp
+28-Nov-2019 22:12:10.400 ĞÅÏ¢ [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+28-Nov-2019 22:12:10.404 ĞÅÏ¢ [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+28-Nov-2019 22:12:10.405 ĞÅÏ¢ [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSLÅäÖÃ£ºuseAprConnector[false]£¬useOpenSSL[true]
+28-Nov-2019 22:12:10.419 ĞÅÏ¢ [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+28-Nov-2019 22:12:10.984 ĞÅÏ¢ [main] org.apache.coyote.AbstractProtocol.init ³õÊ¼»¯Ğ­Òé´¦ÀíÆ÷ ["http-nio-8080"]
+28-Nov-2019 22:12:12.438 ĞÅÏ¢ [main] org.apache.coyote.AbstractProtocol.init ³õÊ¼»¯Ğ­Òé´¦ÀíÆ÷ ["ajp-nio-8009"]
+28-Nov-2019 22:12:12.471 ĞÅÏ¢ [main] org.apache.catalina.startup.Catalina.load ·şÎñÆ÷ÔÚ[2,642]ºÁÃëÄÚ³õÊ¼»¯
+28-Nov-2019 22:12:12.591 ĞÅÏ¢ [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Nov-2019 22:12:12.593 ĞÅÏ¢ [main] org.apache.catalina.core.StandardEngine.startInternal ÕıÔÚÆô¶¯ Servlet ÒıÇæ£º[Apache Tomcat/9.0.29]
+28-Nov-2019 22:12:12.611 ĞÅÏ¢ [main] org.apache.catalina.startup.HostConfig.deployDirectory °Ñweb Ó¦ÓÃ³ÌĞò²¿Êğµ½Ä¿Â¼ [F:\javasoftware\Tomcat\apache-tomcat-9.0.29\webapps\docs]
+28-Nov-2019 22:12:14.464 ¾¯¸æ [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,338] milliseconds.
+28-Nov-2019 22:12:14.510 ĞÅÏ¢ [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\javasoftware\Tomcat\apache-tomcat-9.0.29\webapps\docs] has finished in [1,899] ms
+28-Nov-2019 22:12:14.512 ĞÅÏ¢ [main] org.apache.catalina.startup.HostConfig.deployDirectory °Ñweb Ó¦ÓÃ³ÌĞò²¿Êğµ½Ä¿Â¼ [F:\javasoftware\Tomcat\apache-tomcat-9.0.29\webapps\examples]
+28-Nov-2019 22:12:15.587 ĞÅÏ¢ [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\javasoftware\Tomcat\apache-tomcat-9.0.29\webapps\examples] has finished in [1,075] ms
+28-Nov-2019 22:12:15.588 ĞÅÏ¢ [main] org.apache.catalina.startup.HostConfig.deployDirectory °Ñweb Ó¦ÓÃ³ÌĞò²¿Êğµ½Ä¿Â¼ [F:\javasoftware\Tomcat\apache-tomcat-9.0.29\webapps\host-manager]
+28-Nov-2019 22:12:15.678 ĞÅÏ¢ [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\javasoftware\Tomcat\apache-tomcat-9.0.29\webapps\host-manager] has finished in [90] ms
+28-Nov-2019 22:12:15.680 ĞÅÏ¢ [main] org.apache.catalina.startup.HostConfig.deployDirectory °Ñweb Ó¦ÓÃ³ÌĞò²¿Êğµ½Ä¿Â¼ [F:\javasoftware\Tomcat\apache-tomcat-9.0.29\webapps\manager]
+28-Nov-2019 22:12:15.758 ĞÅÏ¢ [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\javasoftware\Tomcat\apache-tomcat-9.0.29\webapps\manager] has finished in [77] ms
+28-Nov-2019 22:12:15.759 ĞÅÏ¢ [main] org.apache.catalina.startup.HostConfig.deployDirectory °Ñweb Ó¦ÓÃ³ÌĞò²¿Êğµ½Ä¿Â¼ [F:\javasoftware\Tomcat\apache-tomcat-9.0.29\webapps\ROOT]
+28-Nov-2019 22:12:15.826 ĞÅÏ¢ [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\javasoftware\Tomcat\apache-tomcat-9.0.29\webapps\ROOT] has finished in [68] ms
+28-Nov-2019 22:12:15.835 ĞÅÏ¢ [main] org.apache.coyote.AbstractProtocol.start ¿ªÊ¼Ğ­Òé´¦Àí¾ä±ú["http-nio-8080"]
+28-Nov-2019 22:12:15.850 ĞÅÏ¢ [main] org.apache.coyote.AbstractProtocol.start ¿ªÊ¼Ğ­Òé´¦Àí¾ä±ú["ajp-nio-8009"]
+28-Nov-2019 22:12:15.859 ĞÅÏ¢ [main] org.apache.catalina.startup.Catalina.start Server startup in [3,382] milliseconds
+28-Nov-2019 22:20:05.693 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log Server.·şÎñÆ÷°æ±¾:     Apache Tomcat/9.0.29
+28-Nov-2019 22:20:05.706 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log ·şÎñÆ÷¹¹½¨:            Nov 16 2019 17:29:07 UTC
+28-Nov-2019 22:20:05.708 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log ·şÎñÆ÷°æ±¾ºÅ(£º9.0.29.0
+28-Nov-2019 22:20:05.709 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+28-Nov-2019 22:20:05.711 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log OS.°æ±¾:               10.0
+28-Nov-2019 22:20:05.714 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log ¼Ü¹¹:                  amd64
+28-Nov-2019 22:20:05.714 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log Java »·¾³±äÁ¿:         C:\Program Files\Java\jdk-12.0.1
+28-Nov-2019 22:20:05.715 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log JVM °æ±¾:              12.0.1+12
+28-Nov-2019 22:20:05.719 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.¹©Ó¦ÉÌ:            Oracle Corporation
+28-Nov-2019 22:20:05.720 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\javasoftware\Tomcat\apache-tomcat-9.0.29
+28-Nov-2019 22:20:05.721 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\javasoftware\Tomcat\apache-tomcat-9.0.29
+28-Nov-2019 22:20:05.745 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+28-Nov-2019 22:20:05.746 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+28-Nov-2019 22:20:05.747 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+28-Nov-2019 22:20:05.748 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\javasoftware\Tomcat\apache-tomcat-9.0.29\conf\logging.properties
+28-Nov-2019 22:20:05.748 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Nov-2019 22:20:05.750 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Nov-2019 22:20:05.753 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Nov-2019 22:20:05.756 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Nov-2019 22:20:05.764 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\javasoftware\Tomcat\apache-tomcat-9.0.29
+28-Nov-2019 22:20:05.767 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\javasoftware\Tomcat\apache-tomcat-9.0.29
+28-Nov-2019 22:20:05.780 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\javasoftware\Tomcat\apache-tomcat-9.0.29\temp
+28-Nov-2019 22:20:05.783 ĞÅÏ¢ [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+28-Nov-2019 22:20:05.787 ĞÅÏ¢ [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+28-Nov-2019 22:20:05.796 ĞÅÏ¢ [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSLÅäÖÃ£ºuseAprConnector[false]£¬useOpenSSL[true]
+28-Nov-2019 22:20:05.819 ĞÅÏ¢ [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+28-Nov-2019 22:20:06.862 ĞÅÏ¢ [main] org.apache.coyote.AbstractProtocol.init ³õÊ¼»¯Ğ­Òé´¦ÀíÆ÷ ["http-nio-8080"]
+28-Nov-2019 22:20:09.164 ĞÅÏ¢ [main] org.apache.coyote.AbstractProtocol.init ³õÊ¼»¯Ğ­Òé´¦ÀíÆ÷ ["ajp-nio-8009"]
+28-Nov-2019 22:20:09.186 ĞÅÏ¢ [main] org.apache.catalina.startup.Catalina.load ·şÎñÆ÷ÔÚ[4,294]ºÁÃëÄÚ³õÊ¼»¯
+28-Nov-2019 22:20:09.381 ĞÅÏ¢ [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Nov-2019 22:20:09.383 ĞÅÏ¢ [main] org.apache.catalina.core.StandardEngine.startInternal ÕıÔÚÆô¶¯ Servlet ÒıÇæ£º[Apache Tomcat/9.0.29]
+28-Nov-2019 22:20:09.425 ĞÅÏ¢ [main] org.apache.catalina.startup.HostConfig.deployDirectory °Ñweb Ó¦ÓÃ³ÌĞò²¿Êğµ½Ä¿Â¼ [F:\javasoftware\Tomcat\apache-tomcat-9.0.29\webapps\docs]
+28-Nov-2019 22:20:12.639 ¾¯¸æ [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [2,049] milliseconds.
+28-Nov-2019 22:20:12.686 ĞÅÏ¢ [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\javasoftware\Tomcat\apache-tomcat-9.0.29\webapps\docs] has finished in [3,262] ms
+28-Nov-2019 22:20:12.688 ĞÅÏ¢ [main] org.apache.catalina.startup.HostConfig.deployDirectory °Ñweb Ó¦ÓÃ³ÌĞò²¿Êğµ½Ä¿Â¼ [F:\javasoftware\Tomcat\apache-tomcat-9.0.29\webapps\examples]
+28-Nov-2019 22:20:15.113 ĞÅÏ¢ [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\javasoftware\Tomcat\apache-tomcat-9.0.29\webapps\examples] has finished in [2,421] ms
+28-Nov-2019 22:20:15.131 ĞÅÏ¢ [main] org.apache.catalina.startup.HostConfig.deployDirectory °Ñweb Ó¦ÓÃ³ÌĞò²¿Êğµ½Ä¿Â¼ [F:\javasoftware\Tomcat\apache-tomcat-9.0.29\webapps\host-manager]
+28-Nov-2019 22:20:15.443 ĞÅÏ¢ [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\javasoftware\Tomcat\apache-tomcat-9.0.29\webapps\host-manager] has finished in [311] ms
+28-Nov-2019 22:20:15.449 ĞÅÏ¢ [main] org.apache.catalina.startup.HostConfig.deployDirectory °Ñweb Ó¦ÓÃ³ÌĞò²¿Êğµ½Ä¿Â¼ [F:\javasoftware\Tomcat\apache-tomcat-9.0.29\webapps\manager]
+28-Nov-2019 22:20:15.830 ĞÅÏ¢ [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\javasoftware\Tomcat\apache-tomcat-9.0.29\webapps\manager] has finished in [381] ms
+28-Nov-2019 22:20:15.836 ĞÅÏ¢ [main] org.apache.catalina.startup.HostConfig.deployDirectory °Ñweb Ó¦ÓÃ³ÌĞò²¿Êğµ½Ä¿Â¼ [F:\javasoftware\Tomcat\apache-tomcat-9.0.29\webapps\ROOT]
+28-Nov-2019 22:20:16.066 ĞÅÏ¢ [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\javasoftware\Tomcat\apache-tomcat-9.0.29\webapps\ROOT] has finished in [228] ms
+28-Nov-2019 22:20:16.089 ĞÅÏ¢ [main] org.apache.coyote.AbstractProtocol.start ¿ªÊ¼Ğ­Òé´¦Àí¾ä±ú["http-nio-8080"]
+28-Nov-2019 22:20:16.115 ĞÅÏ¢ [main] org.apache.coyote.AbstractProtocol.start ¿ªÊ¼Ğ­Òé´¦Àí¾ä±ú["ajp-nio-8009"]
+28-Nov-2019 22:20:16.131 ĞÅÏ¢ [main] org.apache.catalina.startup.Catalina.start Server startup in [6,922] milliseconds
+28-Nov-2019 22:20:35.861 ĞÅÏ¢ [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+28-Nov-2019 22:20:35.863 ĞÅÏ¢ [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+28-Nov-2019 22:20:37.386 ĞÅÏ¢ [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+28-Nov-2019 22:20:38.875 ĞÅÏ¢ [main] org.apache.catalina.core.StandardService.stopInternal ÕıÔÚÍ£Ö¹·şÎñ[Catalina]
+28-Nov-2019 22:20:38.933 ĞÅÏ¢ [main] org.apache.coyote.AbstractProtocol.stop ÕıÔÚÍ£Ö¹ProtocolHandler ["http-nio-8080"]
+28-Nov-2019 22:20:38.941 ĞÅÏ¢ [main] org.apache.coyote.AbstractProtocol.stop ÕıÔÚÍ£Ö¹ProtocolHandler ["ajp-nio-8009"]
+28-Nov-2019 22:20:38.946 ĞÅÏ¢ [main] org.apache.coyote.AbstractProtocol.destroy ÕıÔÚ´İ»ÙĞ­Òé´¦ÀíÆ÷ ["http-nio-8080"]
+28-Nov-2019 22:20:38.951 ĞÅÏ¢ [main] org.apache.coyote.AbstractProtocol.destroy ÕıÔÚ´İ»ÙĞ­Òé´¦ÀíÆ÷ ["ajp-nio-8009"]
+28-Nov-2019 22:20:59.534 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log Server.·şÎñÆ÷°æ±¾:     Apache Tomcat/9.0.29
+28-Nov-2019 22:20:59.546 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log ·şÎñÆ÷¹¹½¨:            Nov 16 2019 17:29:07 UTC
+28-Nov-2019 22:20:59.547 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log ·şÎñÆ÷°æ±¾ºÅ(£º9.0.29.0
+28-Nov-2019 22:20:59.548 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+28-Nov-2019 22:20:59.549 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log OS.°æ±¾:               10.0
+28-Nov-2019 22:20:59.555 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log ¼Ü¹¹:                  amd64
+28-Nov-2019 22:20:59.559 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log Java »·¾³±äÁ¿:         C:\Program Files\Java\jdk-12.0.1
+28-Nov-2019 22:20:59.569 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log JVM °æ±¾:              12.0.1+12
+28-Nov-2019 22:20:59.570 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.¹©Ó¦ÉÌ:            Oracle Corporation
+28-Nov-2019 22:20:59.571 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\javasoftware\Tomcat\apache-tomcat-9.0.29
+28-Nov-2019 22:20:59.572 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\javasoftware\Tomcat\apache-tomcat-9.0.29
+28-Nov-2019 22:20:59.603 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+28-Nov-2019 22:20:59.604 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+28-Nov-2019 22:20:59.607 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+28-Nov-2019 22:20:59.608 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\javasoftware\Tomcat\apache-tomcat-9.0.29\conf\logging.properties
+28-Nov-2019 22:20:59.609 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Nov-2019 22:20:59.612 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Nov-2019 22:20:59.629 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Nov-2019 22:20:59.632 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Nov-2019 22:20:59.643 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\javasoftware\Tomcat\apache-tomcat-9.0.29
+28-Nov-2019 22:20:59.653 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\javasoftware\Tomcat\apache-tomcat-9.0.29
+28-Nov-2019 22:20:59.654 ĞÅÏ¢ [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\javasoftware\Tomcat\apache-tomcat-9.0.29\temp
+28-Nov-2019 22:20:59.656 ĞÅÏ¢ [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+28-Nov-2019 22:20:59.661 ĞÅÏ¢ [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+28-Nov-2019 22:20:59.680 ĞÅÏ¢ [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSLÅäÖÃ£ºuseAprConnector[false]£¬useOpenSSL[true]
+28-Nov-2019 22:20:59.712 ĞÅÏ¢ [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+28-Nov-2019 22:21:00.721 ĞÅÏ¢ [main] org.apache.coyote.AbstractProtocol.init ³õÊ¼»¯Ğ­Òé´¦ÀíÆ÷ ["http-nio-8080"]
+28-Nov-2019 22:21:02.434 ĞÅÏ¢ [main] org.apache.coyote.AbstractProtocol.init ³õÊ¼»¯Ğ­Òé´¦ÀíÆ÷ ["ajp-nio-8009"]
+28-Nov-2019 22:21:02.450 ĞÅÏ¢ [main] org.apache.catalina.startup.Catalina.load ·şÎñÆ÷ÔÚ[3,488]ºÁÃëÄÚ³õÊ¼»¯
+28-Nov-2019 22:21:02.572 ĞÅÏ¢ [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Nov-2019 22:21:02.574 ĞÅÏ¢ [main] org.apache.catalina.core.StandardEngine.startInternal ÕıÔÚÆô¶¯ Servlet ÒıÇæ£º[Apache Tomcat/9.0.29]
+28-Nov-2019 22:21:02.604 ĞÅÏ¢ [main] org.apache.catalina.startup.HostConfig.deployDirectory °Ñweb Ó¦ÓÃ³ÌĞò²¿Êğµ½Ä¿Â¼ [F:\javasoftware\Tomcat\apache-tomcat-9.0.29\webapps\docs]
+28-Nov-2019 22:21:04.780 ¾¯¸æ [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,582] milliseconds.
+28-Nov-2019 22:21:04.829 ĞÅÏ¢ [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\javasoftware\Tomcat\apache-tomcat-9.0.29\webapps\docs] has finished in [2,224] ms
+28-Nov-2019 22:21:04.830 ĞÅÏ¢ [main] org.apache.catalina.startup.HostConfig.deployDirectory °Ñweb Ó¦ÓÃ³ÌĞò²¿Êğµ½Ä¿Â¼ [F:\javasoftware\Tomcat\apache-tomcat-9.0.29\webapps\examples]
+28-Nov-2019 22:21:06.031 ĞÅÏ¢ [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\javasoftware\Tomcat\apache-tomcat-9.0.29\webapps\examples] has finished in [1,202] ms
+28-Nov-2019 22:21:06.033 ĞÅÏ¢ [main] org.apache.catalina.startup.HostConfig.deployDirectory °Ñweb Ó¦ÓÃ³ÌĞò²¿Êğµ½Ä¿Â¼ [F:\javasoftware\Tomcat\apache-tomcat-9.0.29\webapps\host-manager]
+28-Nov-2019 22:21:06.154 ĞÅÏ¢ [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\javasoftware\Tomcat\apache-tomcat-9.0.29\webapps\host-manager] has finished in [122] ms
+28-Nov-2019 22:21:06.156 ĞÅÏ¢ [main] org.apache.catalina.startup.HostConfig.deployDirectory °Ñweb Ó¦ÓÃ³ÌĞò²¿Êğµ½Ä¿Â¼ [F:\javasoftware\Tomcat\apache-tomcat-9.0.29\webapps\manager]
+28-Nov-2019 22:21:06.251 ĞÅÏ¢ [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\javasoftware\Tomcat\apache-tomcat-9.0.29\webapps\manager] has finished in [95] ms
+28-Nov-2019 22:21:06.252 ĞÅÏ¢ [main] org.apache.catalina.startup.HostConfig.deployDirectory °Ñweb Ó¦ÓÃ³ÌĞò²¿Êğµ½Ä¿Â¼ [F:\javasoftware\Tomcat\apache-tomcat-9.0.29\webapps\ROOT]
+28-Nov-2019 22:21:06.335 ĞÅÏ¢ [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\javasoftware\Tomcat\apache-tomcat-9.0.29\webapps\ROOT] has finished in [83] ms
+28-Nov-2019 22:21:06.345 ĞÅÏ¢ [main] org.apache.coyote.AbstractProtocol.start ¿ªÊ¼Ğ­Òé´¦Àí¾ä±ú["http-nio-8080"]
+28-Nov-2019 22:21:06.367 ĞÅÏ¢ [main] org.apache.coyote.AbstractProtocol.start ¿ªÊ¼Ğ­Òé´¦Àí¾ä±ú["ajp-nio-8009"]
+28-Nov-2019 22:21:06.383 ĞÅÏ¢ [main] org.apache.catalina.startup.Catalina.start Server startup in [3,931] milliseconds
+28-Nov-2019 22:21:10.591 ĞÅÏ¢ [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+28-Nov-2019 22:21:12.060 ĞÅÏ¢ [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+28-Nov-2019 22:21:13.490 ĞÅÏ¢ [Thread-4] org.apache.catalina.core.StandardService.stopInternal ÕıÔÚÍ£Ö¹·şÎñ[Catalina]
+28-Nov-2019 22:21:13.567 ĞÅÏ¢ [Thread-4] org.apache.coyote.AbstractProtocol.stop ÕıÔÚÍ£Ö¹ProtocolHandler ["http-nio-8080"]
+28-Nov-2019 22:21:13.578 ĞÅÏ¢ [Thread-4] org.apache.coyote.AbstractProtocol.stop ÕıÔÚÍ£Ö¹ProtocolHandler ["ajp-nio-8009"]
+28-Nov-2019 22:21:13.591 ĞÅÏ¢ [Thread-4] org.apache.coyote.AbstractProtocol.destroy ÕıÔÚ´İ»ÙĞ­Òé´¦ÀíÆ÷ ["http-nio-8080"]
+28-Nov-2019 22:21:13.595 ĞÅÏ¢ [Thread-4] org.apache.coyote.AbstractProtocol.destroy ÕıÔÚ´İ»ÙĞ­Òé´¦ÀíÆ÷ ["ajp-nio-8009"]
